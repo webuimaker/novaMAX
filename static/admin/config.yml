@@ -21,6 +21,8 @@ collections:
     slug: '{{fields.filename}}'
     folder: "content/blog"
     create: true
+    editor:
+      preview: true
     fields:
       - { label: "File name", name: "filename", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
@@ -42,69 +44,15 @@ collections:
   - name: 'page'
     label: 'Pages'
     identifier_field: Page
-    folder: 'content/allpages'
-    create: true
-    slug: '{{title}}'    
-    relPermalink: '/{{title}}'
-    preview_path: '/{{url}}'
-    editor:
-      preview: true
+    folder: 'content/'
+    create: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'url', name: 'url',  widget: 'string' }
-      - { label: 'relPermalink', name: 'relPermalink', relPermalink: '/{{url}}', widget: 'string', required: false }
-      - label: Keywords
-        name: keywords
+      - label: Knowledge
+        name: knowledge
         widget: list
         collapsed: true
         create: true
         fields:
-          - {label: Enter keywords, name: 'keyText', widget: 'string'}        
-      - label: Hero
-        name: hero
-        widget: "object"
-        create: false
-        collapsed: true
-        fields:
-          - {label: Title, name: 'heroTitle', widget: 'string'}      
-          - {label: Description, name: 'heroDesc', widget: 'string'}      
-          - {label: Image, name: 'heroImage', widget: 'image'}      
-          - {label: Button Text, name: 'heroBtnText', widget: 'string', required: false}      
-          - {label: Button Url, name: 'heroBtnUrl', widget: 'string', required: false} 
-      - { label: 'How many boxes you want to below of Hero', name: 'heroBelwoBoxNumber', widget: 'number', default: 3, min: 2, max: 4 } 
-      - label: Hero Below Box
-        name: heroBelwoBox
-        widget: "list"
-        create: true
-        collapsed: true
-        required: false
-        max: 4
-        min: 2
-        fields:
-          - {label: Title, name: 'hBelwoBoxTitle', widget: 'string'}      
-          - {label: Description, name: 'hBelwoBoxDesc', widget: 'string'}      
-          - {label: Image, name: 'hBelwoBoxImage', widget: 'image'}      
-          - {label: Url, name: 'hBelwoBoxBtnUrl', widget: 'string'}  
-      - label: Sections
-        name: sections
-        widget: "list"
-        create: true
-        collapsed: true
-        fields:
-          - {label: Section Title, name: 'title', widget: 'string'}      
-          - {label: Section Sub Title, name: 'subTitle', widget: 'string', required: false}      
-          - {label: Badge Name, name: 'titleBadge', widget: 'string'}      
-          - label: Lists
-            name: 'lists'
-            widget: "list"
-            create: true
-            collapsed: true
-            fields:
-              - {label: Section Heading, name: 'heading', widget: 'string'}
-              - {label: Section Sub Heading, name: 'subHeading', widget: 'string', required: false}
-              - {label: Information, name: 'content', widget: 'markdown'}
-              - {label: image, name: 'image', widget: 'image'}
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+          - {label: Title, name: 'title', widget: 'string'}  
+          - {label: Text, name: 'text', widget: 'markdown'} 
 

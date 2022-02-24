@@ -28,15 +28,31 @@
                     <div class="col-md-12 text-center">
                         <div>
                             <div class="owl-carousel owl-theme">
-                                {{ range .Site.Data.knowledge.items }}
-                                <div class="item">
-                                    <div class="grids">
-                                        <div class="choosecontent text-center mb-5">
-                                            <h5>{{.title}}</h5>
-                                            <p>{{.text}}</p>
+                                {{ if .Params.knowledge }}
+                                    {{ range .Params.knowledge }} 
+                                        <div class="item">
+                                            <div class="grids">
+                                                <div class="choosecontent text-center mb-5">
+                                                    <h5>{{.title}}</h5>
+                                                    <p>{{.text}}</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
+                                    {{ end }}
+
+                                {{ else }}
+
+                                    {{ range .Site.Data.knowledge.items }}
+
+                                        <div class="item">
+                                            <div class="grids">
+                                                <div class="choosecontent text-center mb-5">
+                                                    <h5>{{.title}}</h5>
+                                                    <p>{{.text}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {{end}}
                                 {{end}}
                             </div>
                         </div>
