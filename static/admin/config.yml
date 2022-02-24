@@ -18,6 +18,7 @@ site_url: https://flamboyant-benz-eb887f.netlify.app/
 collections:
   - name: "blog"
     label: "Blog"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     folder: "content/blog"
     create: true
     fields:
@@ -26,20 +27,16 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - { label: "", name: "image", widget: "image"}
-      - label: categories
-        name: categories
-        widget: list
-        collapsed: true
-        create: true
-        fields:
-          - {label: Enter categories, name: 'categories', widget: 'string'}
-      - label: tags
-        name: tags
-        widget: list
-        collapsed: true
-        create: true
-        fields:
-          - {label: Enter tags, name: 'tags', widget: 'string'}
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        allow_add: true
+        default: ["ccat"]
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: true
+        default: ["news"]
       - { label: "Body", name: "body", widget: "markdown" }
   - name: 'page'
     label: 'Pages'
@@ -109,17 +106,4 @@ collections:
               - {label: image, name: 'image', widget: 'image'}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
-      - name: 'blog'
-        label: 'Blog'
-        folder: 'content/blog'
-        create: true
-        slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-        editor:
-          preview: false
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-          - { label: 'Description', name: 'description', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-          - { label: "Featured Image", name: "image", widget: "image"}   
 
