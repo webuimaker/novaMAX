@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+    <defs>
+        <style>
+            .cls-2{fill:none}.cls-3{fill:#786ce6}
+        </style>
+    </defs>
+    <g id="Group_300" data-name="Group 300" transform="translate(-510.782 -1404)">
+        <g id="Ellipse_128" data-name="Ellipse 128" transform="translate(510.782 1404)" style="fill:#fff;stroke:#786ce6;stroke-width:2px">
+            <circle cx="25" cy="25" r="25" style="stroke:none"/>
+            <circle class="cls-2" cx="25" cy="25" r="24"/>
+        </g>
+        <g id="Group_299" data-name="Group 299" transform="translate(520.208 1409.235)">
+            <g id="navigate_before_black_24dp" transform="rotate(-90 15.706 15.706)">
+                <path id="Path_2010" data-name="Path 2010" class="cls-2" d="M0 0h31.412v31.412H0z"/>
+                <path id="Path_2011" data-name="Path 2011" class="cls-3" d="M9.7 1.845 7.853 0 0 7.853l7.853 7.853L9.7 13.861l-6-6.008z" transform="translate(10.733 7.853)"/>
+            </g>
+            <g id="navigate_before_black_24dp-2" data-name="navigate_before_black_24dp" transform="rotate(-90 20.287 20.287)">
+                <path id="Path_2010-2" data-name="Path 2010" class="cls-2" d="M0 0h31.412v31.412H0z"/>
+                <path id="Path_2011-2" data-name="Path 2011" class="cls-3" d="M9.7 1.845 7.853 0 0 7.853l7.853 7.853L9.7 13.861l-6-6.008z" transform="translate(10.733 7.853)"/>
+            </g>
+        </g>
+    </g>
+</svg>

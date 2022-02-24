@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="557" height="580" viewBox="0 0 557 580">
+  <defs>
+    <filter id="Rectangle_3405" x="321" y="0" width="236" height="255" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3405-2" x="0" y="325" width="242" height="255" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3405-3" x="0" y="60" width="242" height="195" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-3"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3405-4" x="315" y="325" width="242" height="211" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-4"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3405-5" x="120" y="206" width="330.018" height="168.762" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-5"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3296" data-name="Group 3296" transform="translate(23010.501 565.5)">
+    <path id="Path_13154" data-name="Path 13154" d="M230.5,0C357.8,0,461,103.2,461,230.5S357.8,461,230.5,461,0,357.8,0,230.5,103.2,0,230.5,0Z" transform="translate(-22962.5 -510.5)" fill="#f2f3f4"/>
+    <g id="Group_3271" data-name="Group 3271" transform="translate(-354 -29)">
+      <g id="Group_3258" data-name="Group 3258" transform="translate(-6798 1544)">
+        <g transform="matrix(1, 0, 0, 1, -15858.5, -2080.5)" filter="url(#Rectangle_3405)">
+          <rect id="Rectangle_3405-6" data-name="Rectangle 3405" width="179" height="198" rx="14" transform="translate(349.5 25.5)" fill="#fff"/>
+        </g>
+        <g id="Group_3253" data-name="Group 3253" transform="translate(0 4.5)">
+          <text id="Times_Analysis" data-name="Times Analysis" transform="translate(-15497 -2031.5)" fill="#323a45" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Times Analysis</tspan></text>
+          <g id="Group_3252" data-name="Group 3252" transform="translate(-36092.855 -2452.5)">
+            <g id="Group_2332" data-name="Group 2332" transform="translate(-0.145 -3)">
+              <text id="Scheduled_hrs:" data-name="Scheduled hrs:" transform="translate(20596 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Scheduled hrs:</tspan></text>
+              <text id="_199.5" data-name="199.5" transform="translate(20751 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-30.633" y="0">199.5</tspan></text>
+            </g>
+            <g id="Group_2330" data-name="Group 2330" transform="translate(20490.855 94)">
+              <g id="Group_1962" data-name="Group 1962" transform="translate(0 4)">
+                <text id="Regular_hrs:_" data-name="Regular hrs: " transform="translate(112 354)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="11">Regular hrs: </tspan></text>
+                <text id="_350_10_10_2_1_10" data-name="350
+10
+10
+2
+1
+10" transform="translate(260 365)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-20.215" y="0">350</tspan><tspan fill="#ff4853"><tspan x="-13.477" y="22">10</tspan></tspan><tspan x="-13.477" y="44">10</tspan><tspan x="-6.738" y="66">2</tspan><tspan x="-6.738" y="88">1</tspan><tspan x="-13.477" y="110">10</tspan></text>
+                <rect id="Rectangle_3289" data-name="Rectangle 3289" width="65" height="12" rx="2" transform="translate(112 376)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-2" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 398)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-3" data-name="Rectangle 3289" width="94" height="12" rx="2" transform="translate(112 420)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-4" data-name="Rectangle 3289" width="73" height="12" rx="2" transform="translate(112 442)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-5" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 464)" fill="#f4f6f8"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3254" data-name="Group 3254" transform="translate(-7115 1869)">
+        <g transform="matrix(1, 0, 0, 1, -15541.5, -2405.5)" filter="url(#Rectangle_3405-2)">
+          <rect id="Rectangle_3405-7" data-name="Rectangle 3405" width="185" height="198" rx="14" transform="translate(28.5 350.5)" fill="#fff"/>
+        </g>
+        <g id="Group_3253-2" data-name="Group 3253" transform="translate(0 4.5)">
+          <text id="Shift_Analysis" data-name="Shift Analysis" transform="translate(-15496.855 -2031.5)" fill="#323a45" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Shift Analysis</tspan></text>
+          <g id="Group_3252-2" data-name="Group 3252" transform="translate(-36092.855 -2452.5)">
+            <g id="Group_2332-2" data-name="Group 2332" transform="translate(0 -3)">
+              <text id="Total_Shifts:" data-name="Total Shifts:" transform="translate(20596 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Total Shifts:</tspan></text>
+              <text id="_370" data-name=" 370" transform="translate(20731.855 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0" xml:space="preserve"> 370</tspan></text>
+            </g>
+            <g id="Group_2330-2" data-name="Group 2330" transform="translate(20494.855 94)">
+              <g id="Group_1962-2" data-name="Group 1962" transform="translate(0 4)">
+                <text id="Not_Scheduled_" data-name="Not Scheduled
+" transform="translate(112 354)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="11">Not Scheduled</tspan><tspan x="0" y="33"></tspan></text>
+                <text id="_350_10_10_2_1_10-2" data-name="350
+10
+10
+2
+1
+10" transform="translate(260 365)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-20.215" y="0">350</tspan><tspan fill="#ff4853"><tspan x="-13.477" y="22">10</tspan></tspan><tspan x="-13.477" y="44">10</tspan><tspan x="-6.738" y="66">2</tspan><tspan x="-6.738" y="88">1</tspan><tspan x="-13.477" y="110">10</tspan></text>
+                <rect id="Rectangle_3289-6" data-name="Rectangle 3289" width="65" height="12" rx="2" transform="translate(112 376)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-7" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 398)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-8" data-name="Rectangle 3289" width="94" height="12" rx="2" transform="translate(112 420)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-9" data-name="Rectangle 3289" width="73" height="12" rx="2" transform="translate(112 442)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-10" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 464)" fill="#f4f6f8"/>
+              </g>
+              <g id="Group_2336" data-name="Group 2336">
+                <ellipse id="Oval_5_Copy_3" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 382.5)" fill="#f0ad24"/>
+                <ellipse id="Oval_5_Copy_3-2" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 404.5)" fill="#50c25f"/>
+                <g id="Oval_5_Copy_3-3" data-name="Oval 5 Copy 3" transform="translate(101 426.5)" fill="#fff" stroke="#8b959e" stroke-miterlimit="10" stroke-width="0.7">
+                  <ellipse cx="3.858" cy="3.906" rx="3.858" ry="3.906" stroke="none"/>
+                  <ellipse cx="3.858" cy="3.906" rx="3.508" ry="3.556" fill="none"/>
+                </g>
+                <g id="Oval_5_Copy_3-4" data-name="Oval 5 Copy 3" transform="translate(101 448.5)" fill="#8b959e" stroke="#8b959e" stroke-miterlimit="10" stroke-width="0.7">
+                  <ellipse cx="3.858" cy="3.906" rx="3.858" ry="3.906" stroke="none"/>
+                  <ellipse cx="3.858" cy="3.906" rx="3.508" ry="3.556" fill="none"/>
+                </g>
+                <ellipse id="Oval_5_Copy_3-5" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 470.5)" fill="#00a8ff"/>
+                <ellipse id="Oval_5_Copy_3-6" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 361.5)" fill="#fd612c"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3278" data-name="Group 3278" transform="translate(-7115 1604)">
+        <g transform="matrix(1, 0, 0, 1, -15541.5, -2140.5)" filter="url(#Rectangle_3405-3)">
+          <rect id="Rectangle_3405-8" data-name="Rectangle 3405" width="185" height="138" rx="14" transform="translate(28.5 85.5)" fill="#fff"/>
+        </g>
+        <g id="Group_3253-3" data-name="Group 3253" transform="translate(0 4.5)">
+          <text id="Guard_Analysis" data-name="Guard Analysis" transform="translate(-15496.855 -2031.5)" fill="#323a45" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Guard Analysis</tspan></text>
+          <g id="Group_3252-3" data-name="Group 3252" transform="translate(-36092.855 -2452.5)">
+            <g id="Group_2332-3" data-name="Group 2332" transform="translate(0 -3)">
+              <text id="Total_Shifts:-2" data-name="Total Shifts:" transform="translate(20596 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Total Shifts:</tspan></text>
+              <text id="_370-2" data-name=" 370" transform="translate(20731.855 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0" xml:space="preserve"> 370</tspan></text>
+            </g>
+            <g id="Group_2330-3" data-name="Group 2330" transform="translate(20494.855 94)">
+              <g id="Group_1962-3" data-name="Group 1962" transform="translate(0 4)">
+                <text id="Declined_Shift" data-name="Declined Shift" transform="translate(112 354)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="11">Declined Shift</tspan></text>
+                <text id="_30_10_10" data-name="30
+10
+10" transform="translate(260 365)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-13.477" y="0">30</tspan><tspan fill="#ff4853"><tspan x="-13.477" y="22">10</tspan></tspan><tspan x="-13.477" y="44">10</tspan></text>
+                <rect id="Rectangle_3289-11" data-name="Rectangle 3289" width="65" height="12" rx="2" transform="translate(112 376)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-12" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 398)" fill="#f4f6f8"/>
+              </g>
+              <g id="Group_2336-2" data-name="Group 2336">
+                <ellipse id="Oval_5_Copy_3-7" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 382.5)" fill="#f0ad24"/>
+                <ellipse id="Oval_5_Copy_3-8" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 404.5)" fill="#50c25f"/>
+                <ellipse id="Oval_5_Copy_3-9" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 361.5)" fill="#fd612c"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3279" data-name="Group 3279" transform="translate(-6800 1869)">
+        <g transform="matrix(1, 0, 0, 1, -15856.5, -2405.5)" filter="url(#Rectangle_3405-4)">
+          <rect id="Rectangle_3405-9" data-name="Rectangle 3405" width="185" height="154" rx="14" transform="translate(343.5 350.5)" fill="#fff"/>
+        </g>
+        <g id="Group_3253-4" data-name="Group 3253" transform="translate(0 4.5)">
+          <text id="Start_Duty_Analysis" data-name="Start Duty Analysis" transform="translate(-15496.855 -2031.5)" fill="#323a45" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Start Duty Analysis</tspan></text>
+          <g id="Group_3252-4" data-name="Group 3252" transform="translate(-36092.855 -2452.5)">
+            <g id="Group_2332-4" data-name="Group 2332" transform="translate(0 -3)">
+              <text id="Total_Shifts:-3" data-name="Total Shifts:" transform="translate(20596 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Total Shifts:</tspan></text>
+              <text id="_370-3" data-name=" 370" transform="translate(20731.855 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0" xml:space="preserve"> 370</tspan></text>
+            </g>
+            <g id="Group_2330-4" data-name="Group 2330" transform="translate(20494.855 94)">
+              <g id="Group_1962-4" data-name="Group 1962" transform="translate(0 4)">
+                <text id="Missed" transform="translate(112 354)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="11">Missed</tspan></text>
+                <text id="_30_10_10_15" data-name="30
+10
+10
+15" transform="translate(260 365)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-13.477" y="0">30</tspan><tspan x="-13.477" y="22">10</tspan><tspan x="-13.477" y="44">10</tspan><tspan x="-13.477" y="66">15</tspan></text>
+                <rect id="Rectangle_3289-13" data-name="Rectangle 3289" width="65" height="12" rx="2" transform="translate(112 376)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-14" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 398)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-15" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 418)" fill="#f4f6f8"/>
+              </g>
+              <g id="Group_2336-3" data-name="Group 2336">
+                <ellipse id="Oval_5_Copy_3-10" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 382.5)" fill="#fdb780"/>
+                <ellipse id="Oval_5_Copy_3-11" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 404.5)" fill="#f0ad24"/>
+                <ellipse id="Oval_5_Copy_3-12" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 424.5)" fill="#50c25f"/>
+                <ellipse id="Oval_5_Copy_3-13" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 361.5)" fill="#fd612c"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3273" data-name="Group 3273" transform="translate(-500.675 -18)">
+        <g id="Group_3271-2" data-name="Group 3271" transform="translate(-22007.326 -287)">
+          <g transform="matrix(1, 0, 0, 1, -148.5, -231.5)" filter="url(#Rectangle_3405-5)">
+            <g id="Rectangle_3405-10" data-name="Rectangle 3405" transform="translate(148.5 231.5)" fill="rgba(255,255,255,0)" stroke="#dc688e" stroke-width="0.5" stroke-dasharray="4">
+              <rect width="273.018" height="111.762" rx="16" stroke="none"/>
+              <rect x="0.25" y="0.25" width="272.518" height="111.262" rx="15.75" fill="none"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_3272" data-name="Group 3272" transform="translate(-21989.674 -272.43)">
+          <g id="Group_3259" data-name="Group 3259">
+            <rect id="Rectangle_3405-11" data-name="Rectangle 3405" width="238.417" height="83.446" rx="14" transform="translate(0)" fill="rgba(220,104,142,0.25)"/>
+          </g>
+          <g id="Component_61_188" data-name="Component 61 – 188" transform="translate(21.193 11.921)">
+            <g id="Group_2306" data-name="Group 2306" transform="translate(15.894 3.974)">
+              <g id="Group_2313" data-name="Group 2313">
+                <text id="Add_Guard" data-name="Add Guard" transform="translate(33.113 45.464)" fill="#323a45" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Martin</tspan></text>
+                <text id="_08:00_-_18:00" data-name="08:00 - 18:00" transform="translate(0 17)" fill="#323a45" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">08:00 - 18:00</tspan></text>
+                <g id="Group_13_Copy_3" data-name="Group 13 Copy 3" transform="translate(0 26.491)">
+                  <g id="Oval_Copy_7" data-name="Oval Copy 7">
+                    <path id="Path_12910" data-name="Path 12910" d="M13.083,25.666A12.583,12.583,0,1,1,25.666,13.083,12.6,12.6,0,0,1,13.083,25.666Z" transform="translate(0.162 0.162)" fill="rgba(79,177,222,0.25)"/>
+                    <path id="Path_12911" data-name="Path 12911" d="M13.245,1.325A11.921,11.921,0,1,0,25.166,13.245,11.934,11.934,0,0,0,13.245,1.325m0-1.325A13.245,13.245,0,1,1,0,13.245,13.245,13.245,0,0,1,13.245,0Z" fill="#50c25f"/>
+                  </g>
+                  <text id="SK" transform="translate(7.947 17.298)" fill="#4fb1de" font-size="13" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">M</tspan></text>
+                </g>
+                <g id="Group_2759" data-name="Group 2759" transform="translate(18.827 42.005)">
+                  <g id="Oval" fill="#50c25f" stroke="#fff" stroke-miterlimit="10" stroke-width="1">
+                    <circle cx="5.015" cy="5.015" r="5.015" stroke="none"/>
+                    <circle cx="5.015" cy="5.015" r="5.515" fill="none"/>
+                  </g>
+                  <g id="Close" transform="translate(1.254 2.09)">
+                    <path id="Path" d="M2.34,4.431.585,2.674,0,3.26,2.34,5.6,7.355.585,6.771,0Z" fill="#fff"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <rect id="Rectangle_3" data-name="Rectangle 3" width="2.649" height="59.604" transform="translate(0 0)" fill="#00c551"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

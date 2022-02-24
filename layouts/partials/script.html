@@ -1,0 +1,1601 @@
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- client scroll slick slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<!-- slick end -->
+<script>
+    $(".newbtn").click(function() {
+        if ($(this).data("closedAll")) {
+            $(".howitworkssection .collapse").collapse("show");
+        } else {
+            $(".howitworkssection .collapse").collapse("hide");
+        }
+
+        // save last state
+        $(this).data("closedAll", !$(this).data("closedAll"));
+    });
+
+    // init with all closed
+    $(".newbtn").data("closedAll", true);
+</script>
+
+
+
+<script>
+    $(function() {
+        $("#tabs").tabs({
+            show: {
+                // effect: "blind",
+                // direction: "right",
+                duration: 300
+            }
+        });
+        $("#accordion").accordion();
+
+        var btn = $('#accordion li a');
+        var wrapper = $('#accordion li');
+
+        $(btn).on('click', function() {
+            $(btn).removeClass('active');
+            $(btn).parent().find('.addon').removeClass('fadein');
+
+            $(this).addClass('active');
+            $(this).parent().find('.addon').addClass('fadein');
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#tabs1").tabs({
+            show: {
+                // direction: "left",
+                duration: 300
+            }
+        });
+        $("#accordion1").accordion();
+
+        var btn = $('#accordion1 li a');
+        var wrapper = $('#accordion1 li');
+
+        $(btn).on('click', function() {
+            $(btn).removeClass('active');
+            $(btn).parent().find('.addon').removeClass('fadein');
+
+            $(this).addClass('active');
+            $(this).parent().find('.addon').addClass('fadein');
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#tabses").tabs({
+            show: {
+                // direction: "left",
+                duration: 300
+            }
+        });
+        $("#accordiones").accordion();
+
+        var btn = $('#accordiones li a');
+        var wrapper = $('#accordiones li');
+
+        $(btn).on('click', function() {
+            $(btn).removeClass('active');
+            $(btn).parent().find('.addon').removeClass('fadein');
+
+            $(this).addClass('active');
+            $(this).parent().find('.addon').addClass('fadein');
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#tabs2").tabs({
+            show: {
+                // direction: "right",
+                duration: 300
+            }
+        });
+        $("#accordion2").accordion();
+
+        var btn = $('#accordion2 li a');
+        var wrapper = $('#accordion2 li');
+
+        $(btn).on('click', function() {
+            $(btn).removeClass('active');
+            $(btn).parent().find('.addon').removeClass('fadein');
+
+            $(this).addClass('active');
+            $(this).parent().find('.addon').addClass('fadein');
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#tabs3").tabs({
+            show: {
+                // direction: "left",
+                duration: 300
+            }
+        });
+        $("#accordion3").accordion();
+
+        var btn = $('#accordion3 li a');
+        var wrapper = $('#accordion3 li');
+
+        $(btn).on('click', function() {
+            $(btn).removeClass('active');
+            $(btn).parent().find('.addon').removeClass('fadein');
+
+            $(this).addClass('active');
+            $(this).parent().find('.addon').addClass('fadein');
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#tabs4").tabs({
+            show: {
+                // direction: "right",
+                duration: 300
+            }
+        });
+        $("#accordion4").accordion();
+
+        var btn = $('#accordion4 li a');
+        var wrapper = $('#accordion4 li');
+
+        $(btn).on('click', function() {
+            $(btn).removeClass('active');
+            $(btn).parent().find('.addon').removeClass('fadein');
+
+            $(this).addClass('active');
+            $(this).parent().find('.addon').addClass('fadein');
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#tabs5").tabs({
+            show: {
+                // direction: "left",
+                duration: 300
+            }
+        });
+        $("#accordion5").accordion();
+
+        var btn = $('#accordion5 li a');
+        var wrapper = $('#accordion5 li');
+
+        $(btn).on('click', function() {
+            $(btn).removeClass('active');
+            $(btn).parent().find('.addon').removeClass('fadein');
+
+            $(this).addClass('active');
+            $(this).parent().find('.addon').addClass('fadein');
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#tabs6").tabs({
+            show: {
+                // direction: "left",
+                duration: 300
+            }
+        });
+        $("#accordion6").accordion();
+
+        var btn = $('#accordion6 li a');
+        var wrapper = $('#accordion6 li');
+
+        $(btn).on('click', function() {
+            $(btn).removeClass('active');
+            $(btn).parent().find('.addon').removeClass('fadein');
+
+            $(this).addClass('active');
+            $(this).parent().find('.addon').addClass('fadein');
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+
+        // Gets the video src from the data-src on each button
+
+        var $videoSrc;
+        $('.video-btn').click(function() {
+            $videoSrc = $(this).data("src");
+        });
+        console.log($videoSrc);
+
+
+
+        // when the modal is opened autoplay it  
+        $('#myModal').on('shown.bs.modal', function(e) {
+
+            // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        })
+
+
+
+        // stop playing the youtube video when I close the modal
+        $('#myModal').on('hide.bs.modal', function(e) {
+            // a poor man's stop video
+            $("#video").attr('src', $videoSrc);
+        })
+
+
+
+
+
+
+        // document ready  
+    });
+</script>
+
+
+<!-- Owl Carousel -->
+<script src='{{ "/owlcarousel/owl.carousel.js" | absURL }}'></script>
+<script>
+    $(document).ready(function() {
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 5,
+            autoplay: true,
+            autoplayTimeout: 10000,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true,
+                },
+                600: {
+                    items: 1,
+                    nav: false,
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 30,
+                },
+            },
+        });
+
+        $(".owl-two").owlCarousel({
+            animateOut: "slideOutDown",
+            loop: true,
+            margin: 5,
+            autoplay: true,
+            autoplayTimeout: 1500,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true,
+                },
+                600: {
+                    items: 1,
+                    nav: false,
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: true,
+                    margin: 10,
+                },
+            },
+        });
+
+        $(".owl-three").owlCarousel({
+            loop: true,
+            margin: 5,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true,
+                },
+                600: {
+                    items: 2,
+                    nav: false,
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: false,
+                    margin: 10,
+                },
+            },
+        });
+    });
+
+    // slick slider core js
+    $(document).ready(function() {
+        $(".customer-logos").slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: true,
+            responsive: [{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            }, {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    infinite: true
+                },
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                },
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 2,
+                },
+            }, ],
+        });
+    });
+
+    $(document).ready(function() {
+        $(".customer-reviews").slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            rows: 2,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            }, {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    infinite: true
+                },
+            }, {
+                breakpoint: 768,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 2,
+                },
+            }, {
+                breakpoint: 520,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 1,
+                },
+            }, ],
+        });
+    });
+
+
+    // end
+
+    // contactForm api ------------
+</script>
+
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script>
+    hbspt.forms.create({
+        region: "na1",
+        portalId: "4159731",
+        target: '#Sign-Up-Newsletter',
+        formId: "de27e27e-a290-411c-b917-76f34b7e2158"
+    });
+
+    hbspt.forms.create({
+        region: "na1",
+        portalId: "4159731",
+        target: '#Free-Trial',
+        formId: "38bdb347-3342-4b3e-9b17-1958a4af05fe"
+    });
+
+    hbspt.forms.create({
+        region: "na1",
+        portalId: "4159731",
+        target: '#contactForm',
+        formId: "fe162197-5986-4b7b-9a30-b2d19b92b273"
+    });
+
+    hbspt.forms.create({
+        region: "na1",
+        portalId: "4159731",
+        target: '#discount37off',
+        formId: "d716363a-d909-427d-a7ae-639040bfb387"
+    });
+    hbspt.forms.create({
+        region: "na1",
+        portalId: "4159731",
+        target: '#book-a-demo',
+        formId: "20f4b14e-e1b6-4143-b657-92870f94afc7"
+    });
+
+    hbspt.forms.create({
+        region: "na1",
+        portalId: "4159731",
+        target: '#free-trial-cleaning-company',
+        formId: "dd989b8e-bbdd-440a-9bda-3a0e959fa5a1"
+    });
+</script>
+
+
+<script>
+    // api get-started-for-free---------------------------------------------------
+
+    $(function() {
+        $("#get-started-for-free").on("submit", function(event) {
+            event.preventDefault();
+
+            var email = $('input[name=email]').val();
+            console.log("get-started-for-free----", email)
+                // Example request JSON:
+            var data = {
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=email]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // Employee scheduling & tracking for everyone---------------------------------------------------
+
+    $(function() {
+        $("#employee_scheduling").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=employee-scheduling]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=employee-scheduling]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // Complete workforce management for security guard companies---------------------------------------------------
+
+    $(function() {
+        $("#security_guard").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=security-guard]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=security-guard]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // book-a-demo---------------------------------------------------------------------
+
+
+    $(function() {
+        $("#book_a_demo").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=book-a-demo]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=book-a-demo]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // Start being productive & grow your business with Novagems-----------------------------------------
+
+    $(function() {
+        $("#start_being_productive").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=start-being-productive]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=start-being-productive]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // schedule Services Section--------------------------------------------------------- 
+
+    $(function() {
+        $("#schedule_services").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=schedule-services]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=schedule-services]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // Tasks & Post orders------------------------------------------------
+
+    $(function() {
+        $("#tasks_Post_orders").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=tasks-Post-orders]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=tasks-Post-orders]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+
+    // GPS_Tracking--------------------------------------------------------------------------
+
+    $(function() {
+        $("#GPS_Tracking").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=GPS-Tracking]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=GPS-Tracking]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // Clock_In_Out--------------------------------------------------------------------------
+
+    $(function() {
+        $("#clock_in_out").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=clock-in-out]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=clock-in-out]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // Timesheet_for_Payrol----------------------------------------------------------
+    $(function() {
+        $("#Timesheet_for_Payrol").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=Timesheet-for-Payrol]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=Timesheet-for-Payrol]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // Chat_mobile-----------------------------------------------------------------------
+
+    $(function() {
+        $("#Chat_mobile").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=Chat-mobile]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=Chat-mobile]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // tracking_for_everyone-----------------------------------------------------------
+
+    $(function() {
+        $("#tracking_for_everyone").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=tracking-for-everyone]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=tracking-for-everyone]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // custom_incident_report---------------------------------------------
+
+    $(function() {
+        $("#custom_incident_report").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=custom-incident-report]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=custom-incident-report]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+
+    // Check_Point_Tours------------------------------------------------
+    $(function() {
+        $("#Check_Point_Tours").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=Check-Point-Tours]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=Check-Point-Tours]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+
+    $(function() {
+        $("#Mobile_Patrol").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=Mobile-Patrol]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                // "submittedAt": "1517927174000",
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=Mobile-Patrol]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // Smart_Response----------------------------------------------------------------
+    $(function() {
+        $("#Smart_Response").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=Smart-Response]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=Smart-Response]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+
+    // Dashboard_Analytics------------------------------------------------------
+
+    $(function() {
+        $("#Dashboard_Analytics").on("submit", function(event) {
+            event.preventDefault();
+            var email = $('input[name=Dashboard-Analytics]').val();
+            console.log("input[name=email]----", email)
+                // Example request JSON:
+            var data = {
+                "fields": [{
+                    "name": "email",
+                    "value": email
+                }],
+
+                "legalConsentOptions": { // Include this object when GDPR options are enabled
+                    "consent": {
+                        "consentToProcess": true,
+                        "text": "I agree to allow Example Company to store and process my personal data.",
+                        "communications": [{
+                            "value": true,
+                            "subscriptionTypeId": 999,
+                            "text": "I agree to receive marketing communications from Example Company."
+                        }]
+                    }
+                }
+            }
+
+            var final_data = JSON.stringify(data)
+
+            $.ajax({
+                url: "https://api.hsforms.com/submissions/v3/integration/submit/4159731/8b79e284-6120-49e5-aa5b-b18940a7432f",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: final_data,
+                success: function(d) {
+                    console.log("d---", d)
+                    $('input[name=Dashboard-Analytics]').val("")
+                    if (d) {
+                        window.location = d.redirectUri;
+                        // window.open(d.redirectUri, "_blank")
+                    } else {
+                        alert("Enter your email address");
+                    }
+                },
+                error: function(e) {
+                    console.log("eeee---", e)
+                    alert("Enter your email address");
+                }
+            });
+        });
+    })
+</script>
+
+<script>
+    var TxtRotate = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 100) || 4000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtRotate.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+        var that = this;
+        var delta = 150 - Math.random() * 100;
+
+        if (this.isDeleting) {
+            delta /= 2;
+        }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+        }
+
+        setTimeout(function() {
+            that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('txt-rotate');
+        for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-rotate');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+                new TxtRotate(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #786ce6 }";
+        document.body.appendChild(css);
+    };
+</script>
+
+
+
+<script>
+    $('#step-list li.option').click(function() {
+        $(this).addClass('active');
+        var stepFor = $(this).attr('for');
+        $('.billing__main__content__forms__div').removeClass('active');
+        $('#' + stepFor).addClass('active');
+
+        var dataStep = $(this).attr('data-step');
+        $('#step-list li.option').each(function() {
+            if ($(this).attr('data-step') > dataStep) {
+                $(this).removeClass('active');
+            } else {
+                $(this).addClass('active');
+            }
+            if ($(this).attr('data-step') >= dataStep) {
+                $(this).removeClass('done');
+            } else {
+                $(this).addClass('done');
+            }
+        });
+    });
+    $('.billing__main__content__forms__btn').click(function() {
+        var formsBtnId = $(this).attr('data-continue');
+
+        $("li[for = '" + formsBtnId + "']").trigger("click");
+
+
+        var findLiStep = $("li[for = '" + formsBtnId + "']").attr('data-step');
+
+        $('#step-list li.option').each(function() {
+            if ($(this).attr('data-step') >= findLiStep) {
+                $(this).removeClass('done');
+            } else {
+                $(this).addClass('done');
+            }
+        });
+
+
+        var currentPage2 = window.location.href.split('#')[0];
+        window.location.href = currentPage2 + '#' + formsBtnId;
+    });
+
+    var currentPage = window.location.href.split('#')[1];
+    if (currentPage !== undefined && currentPage !== null && currentPage !== 'undefined') {
+        $('.billing__main__content__forms__div').removeClass('active');
+        $('#' + currentPage).addClass('active');
+        $("li[for = '" + currentPage + "']").addClass('active');
+
+        if ($("li[for = '" + currentPage + "']")) {
+            var chooseStep = $("li[for = '" + currentPage + "']").attr('data-step');
+
+            $('#step-list li.option').each(function() {
+                if ($(this).attr('data-step') > chooseStep) {
+                    $(this).removeClass('active');
+                } else {
+                    $(this).addClass('active');
+                }
+                if ($(this).attr('data-step') >= chooseStep) {
+                    $(this).removeClass('done');
+                } else {
+                    $(this).addClass('done');
+                }
+            });
+        }
+    }
+
+    $('.billing__main__search span').click(function() {
+        if ($(this).hasClass('clicked')) {
+            $(this).removeClass('clicked');
+            $(this).html('YENİ AKTİVİTE ARA <i class="fa fa-angle-down" aria-hidden="true"></i>');
+            $('.billing__main__header__default').addClass('active');
+            $('.billing__main__header__search').removeClass('active');
+        } else {
+            $(this).addClass('clicked');
+            $(this).html('ARAMAYI KAPAT <i class="fa fa-times" aria-hidden="true"></i>');
+            $('.billing__main__header__default').removeClass('active');
+            $('.billing__main__header__search').addClass('active');
+        }
+    });
+</script>
+
+<script>
+    document.onreadystatechange = function() {
+        var state = document.readyState
+        if (state == 'complete') {
+            setTimeout(function() {
+                document.getElementById('interactive');
+                document.getElementById('load').style.visibility = "visible";
+            }, 1000);
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    _linkedin_partner_id = "4159921";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function(l) {
+        if (!l) {
+            window.lintrk = function(a, b) {
+                window.lintrk.q.push([a, b])
+            };
+            window.lintrk.q = []
+        }
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })(window.lintrk);
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=4159921&fmt=gif" />
+    </noscript>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/4159731.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+
+        $(".filter-button").click(function(){
+            var value = $(this).attr('data-filter'); 
+            
+           if ($(".filter-button").removeClass("active")) {
+                $(this).removeClass("active");
+            }
+            $(this).addClass("active");
+
+
+            if(value == "all")
+                {
+                    //$('.filter').removeClass('hidden');
+                    // $(this).addClass("active");
+                    $('.filter').show('1000');
+                }
+            else
+            {
+                //    $('.filter[filter-item="'+value+'"]').removeClass('active');
+                //    $(".filter").not('.filter[filter-item="'+value+'"]').addClass('active');
+                $(".filter").not('.'+value).hide('3000');
+                $('.filter').filter('.'+value).show('3000');
+                
+            }
+        });
+
+
+    });
+</script>

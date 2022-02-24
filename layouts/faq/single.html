@@ -1,0 +1,50 @@
+{{ define "main" }}
+<!-- schedule Section -->
+<div>
+    <div>
+        <div>
+            <div class="container">
+                <div class="row align-items-center" style="padding-top: 90px;">
+                    <div class="col-lg-7">
+                        <div>
+                            <div class="mb-4">
+                                <h1 class="hero-h1">Frequently Asked Questions</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <figure><img src="/images/novagems-img/faq.svg" alt="faq"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row pt-5 ">
+                <div class="col-md-10 offset-md-1">
+                    <div id="accordion" class="accordion faqaccordion">
+
+                        <div class="card mb-5">
+                            {{range $index, $elem := .Site.Data.faq.items }}
+                            <div>
+                                <div class="card-header collapsed" data-toggle="collapse" href="#faq{{$index}}">
+                                    <a class="card-title">
+										{{.question}}
+									</a>
+                                </div>
+                                <div id="faq{{$index}}" class="card-body collapse clrmod" data-parent="#accordion">
+                                    {{.answer | safeHTML}}
+                                </div>
+                            </div>
+                            {{end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        {{- partial "resources.html" . -}}
+    </div>
+</div>
+{{end}}

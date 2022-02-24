@@ -1,0 +1,105 @@
+{{$heading := .Get "heading" }}
+{{$formId := .Get "formid"  | lower  }}
+{{$btnpos := .Get "postion" | default "left"   }}
+
+
+
+<div class="mb-4 mt-4 hvr-icon-wobble-horizontal{{with $btnpos}} d-block text-{{.}}{{end}}">
+    <button type="button" class="btn btn-primary btn-arrow transparentbtn" data-toggle="modal" data-target="#{{replace $formId " " "-" }}">
+        <img class="fa fa-arrow-right hvr-icon arrow-icon" src="/images/novagems-img/Arrow.svg" alt="Arrow"> {{.Inner | default "Download Now"}}
+    </button>  
+</div>
+
+
+  <!-- Modal HTML Markup -->
+<div id="{{replace $formId " " "-" }}" class="modal fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">{{$heading}}</h4>
+            </div>
+            <div class="modal-body p-5">
+
+
+                {{ if eq $formId "security-guards" }}
+
+                    <script src="https://share.hsforms.com/1o8T74yUtRLKfsulyadr2NA2h5o3"></script>
+
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                    <script>
+                    hbspt.forms.create({
+                        region: "na1",
+                        portalId: "4159731",
+                        formId: "a3c4fbe3-252d-44b2-9fb2-e97269daf634"
+                    });
+                    </script>
+
+                    
+
+
+
+                {{ else if eq $formId "security-service-arrangement"   }}
+                
+                <script src="https://share.hsforms.com/1R3q-IOS8SxS5vzurXQI1TQ2h5o3"></script>
+
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                  hbspt.forms.create({
+                    region: "na1",
+                    portalId: "4159731",
+                    formId: "477abe20-e4bc-4b14-b9bf-3bab5d02354d"
+                });
+                </script>
+
+
+
+                {{ else if eq $formId "onsite-security"   }}
+
+                    <script src="https://share.hsforms.com/12g2Qjc2hTEGMQlZdGbDehw2h5o3"></script>
+
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                    <script>
+                    hbspt.forms.create({
+                        region: "na1",
+                        portalId: "4159731",
+                        formId: "da0d908d-cda1-4c41-8c42-565d19b0de87"
+                    });
+                </script>
+
+
+                {{ else if eq $formId "agreement-contract"   }}
+
+
+                <script src="https://share.hsforms.com/1qpzPrFMQR6iqZeiAE7ZYoA2h5o3"></script>
+
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                    <script>
+                    hbspt.forms.create({
+                        region: "na1",
+                        portalId: "4159731",
+                        formId: "aa9ccfac-5310-47a8-aa65-e88013b658a0"
+                    });
+                    </script>
+
+
+                {{ else if eq $formId "arrangement-contract"   }}
+
+                <script src="https://share.hsforms.com/1lojEnl97TF6G5OkZAFz9_Q2h5o3"></script>
+
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                  hbspt.forms.create({
+                    region: "na1",
+                    portalId: "4159731",
+                    formId: "9688c49e-5f7b-4c5e-86e4-e919005cfdfd"
+                });
+                </script>
+
+                {{ end }}
+
+                </script>               
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+

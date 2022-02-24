@@ -1,0 +1,539 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="635.85" height="584.64" viewBox="0 0 635.85 584.64">
+  <defs>
+    <filter id="Rectangle_52" x="166.5" y="30" width="306.102" height="554.64" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#141b29" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_52-2" x="166.5" y="30" width="306.102" height="554.64" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-2"/>
+      <feFlood flood-color="#9c9c9c" flood-opacity="0.451" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="New_Schedule_Mobile_1" data-name="New Schedule Mobile – 1" width="211.413" height="459.952" rx="16" transform="matrix(1, 0, 0, 1, -15805.656, -5775.31)" fill="#7d3535"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_3322" data-name="Rectangle 3322" width="212" height="477"/>
+    </clipPath>
+    <filter id="Rectangle" x="208.367" y="69.836" width="224" height="100" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 200 200">
+      <image width="200" height="200" xlink:href="data:image/jpeg;base64,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"/>
+    </pattern>
+    <filter id="Rectangle_Copy_7" x="212.367" y="448.836" width="216" height="40" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-4"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-2" x="208.367" y="477.836" width="224" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="-2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-5"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3405" x="0" y="171.81" width="242" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-6"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3405-2" x="0" y="271.81" width="242" height="255" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-7"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3405-3" x="399" y="208.81" width="236" height="255" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-8"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3405-4" x="398.85" y="101.5" width="237" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-9"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3262" data-name="Group 3262" transform="translate(15873.35 1954)">
+    <circle id="Ellipse_364" data-name="Ellipse 364" cx="230.5" cy="230.5" r="230.5" transform="translate(-15781 -1954)" fill="#f2f3f4"/>
+    <g id="Group_3261" data-name="Group 3261">
+      <g id="Group_3255" data-name="Group 3255" transform="translate(-2714.849 3326.31)">
+        <g id="Group_37" data-name="Group 37" transform="matrix(1, 0, 0, 1, -12956, -5218.31)">
+          <g data-type="innerShadowGroup">
+            <g transform="matrix(1, 0, 0, 1, -202.5, -62)" filter="url(#Rectangle_52)">
+              <rect id="Rectangle_52-3" data-name="Rectangle 52" width="234.101" height="482.64" rx="24" transform="matrix(1, 0, 0, 1, 202.5, 62)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -202.5, -62)" filter="url(#Rectangle_52-2)">
+              <rect id="Rectangle_52-4" data-name="Rectangle 52" width="234.101" height="482.64" rx="24" transform="matrix(1, 0, 0, 1, 202.5, 62)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <rect id="Rectangle_54" data-name="Rectangle 54" width="212.781" height="459.723" rx="16" transform="matrix(1, 0, 0, 1, -12944.474, -5206.784)" fill="none" stroke="rgba(41,45,52,0.1)" stroke-width="1"/>
+        <g id="Mask_Group_23" data-name="Mask Group 23" transform="translate(2861.866 568.526)" clip-path="url(#clip-path)">
+          <g id="For_Scheduling_Mobile" data-name="For Scheduling Mobile" transform="translate(-15806 -5775)" clip-path="url(#clip-path-2)">
+            <rect id="Rectangle_3321" data-name="Rectangle 3321" width="212" height="477" fill="#fff"/>
+            <g id="Rectangle_15_Copy_4" data-name="Rectangle 15 Copy 4" transform="translate(-0.283 79.143)" fill="#fff" stroke="#dfe5eb" stroke-miterlimit="10" stroke-width="1">
+              <rect width="212.273" height="37.876" stroke="none"/>
+              <rect x="0.5" y="0.5" width="211.273" height="36.876" fill="none"/>
+            </g>
+            <text id="Wed_18_Aug_04_" data-name="Wed 18 Aug (04)" transform="translate(9 106)" fill="#8b959e" font-size="8" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Wed 18 Aug (04)</tspan></text>
+            <g id="More_Menu" data-name="More Menu" transform="translate(172.984 98.929)">
+              <path id="Path" d="M7.914,4.522H4.522V7.914H3.392V4.522H0V3.392H3.392V0H4.522V3.392H7.914Z" transform="translate(0 0)" fill="#8b959e"/>
+            </g>
+            <g id="Group_1269" data-name="Group 1269" transform="translate(195.031 98.363)">
+              <g id="More_Menu-2" data-name="More Menu" transform="translate(0 0)">
+                <path id="Shape" d="M1.131,9.045A1.131,1.131,0,1,1,2.261,7.914,1.131,1.131,0,0,1,1.131,9.045Zm0-3.392A1.131,1.131,0,1,1,2.261,4.522,1.131,1.131,0,0,1,1.131,5.653Zm0-3.392A1.131,1.131,0,1,1,2.261,1.131,1.131,1.131,0,0,1,1.131,2.261Z" fill="#8b959e"/>
+              </g>
+            </g>
+            <g id="Group_1917" data-name="Group 1917">
+              <g transform="matrix(1, 0, 0, 1, -214.37, -73.84)" filter="url(#Rectangle)">
+                <rect id="Rectangle-3" data-name="Rectangle" width="212" height="88" transform="translate(214.37 73.84)" fill="#fff"/>
+              </g>
+              <g id="iPhone_X_Status_Bars_Status_Bar_White_" data-name="iPhone X/Status Bars/Status Bar (White)">
+                <g id="iPhone_X_Status_Bars_Status_Bar_Black_" data-name="iPhone X/Status Bars/Status Bar (Black)">
+                  <rect id="Rectangle-4" data-name="Rectangle" width="212" height="25" fill="none"/>
+                  <g id="Battery" transform="translate(189.943 9.798)">
+                    <g id="Border" transform="translate(0 0)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.35">
+                      <rect width="12.437" height="6.407" rx="2.667" stroke="none"/>
+                      <rect x="0.5" y="0.5" width="11.437" height="5.407" rx="2.167" fill="none"/>
+                    </g>
+                    <path id="Cap" d="M0,0V2.261A1.227,1.227,0,0,0,.751,1.131,1.227,1.227,0,0,0,0,0" transform="translate(13.002 2.073)" opacity="0.4"/>
+                    <rect id="Capacity" width="10.176" height="4.145" rx="1.333" transform="translate(1.131 1.131)"/>
+                  </g>
+                  <path id="Wifi" d="M4.191,6.147,3.061,5.008a.177.177,0,0,1,.006-.258,1.934,1.934,0,0,1,2.5,0,.175.175,0,0,1,.057.128.178.178,0,0,1-.053.13L4.437,6.147a.176.176,0,0,1-.25,0Zm1.987-2a2.77,2.77,0,0,0-3.723,0,.176.176,0,0,1-.245,0l-.652-.66a.182.182,0,0,1,0-.259,4.046,4.046,0,0,1,5.513,0,.182.182,0,0,1,0,.259l-.651.66a.176.176,0,0,1-.245,0Zm1.5-1.519a4.884,4.884,0,0,0-6.731,0,.175.175,0,0,1-.245,0L.053,1.971a.182.182,0,0,1,0-.258,6.162,6.162,0,0,1,8.525,0,.183.183,0,0,1,0,.258l-.651.659a.174.174,0,0,1-.245,0Z" transform="translate(178.464 9.797)"/>
+                  <path id="Cellular_Connection" data-name="Cellular Connection" d="M8.48,6.03a.565.565,0,0,1-.565-.565V.565A.565.565,0,0,1,8.48,0h.565A.565.565,0,0,1,9.61.565v4.9a.565.565,0,0,1-.565.565Zm-2.638,0a.565.565,0,0,1-.565-.565V1.885a.565.565,0,0,1,.565-.565h.565a.565.565,0,0,1,.565.565v3.58a.565.565,0,0,1-.565.565ZM3.2,6.03a.565.565,0,0,1-.565-.565V3.2A.565.565,0,0,1,3.2,2.638h.565a.565.565,0,0,1,.565.565V5.465a.565.565,0,0,1-.565.565Zm-2.638,0A.565.565,0,0,1,0,5.465V4.334a.565.565,0,0,1,.565-.565h.565a.565.565,0,0,1,.565.565V5.465a.565.565,0,0,1-.565.565Z" transform="translate(166.012 9.987)"/>
+                  <g id="Time_Style" data-name="Time Style" transform="translate(19.575 8.762)">
+                    <text id="_Time" data-name="↳ Time" transform="translate(0 7)" font-size="7" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0" letter-spacing="-0.02em">9:4</tspan><tspan y="0">1</tspan></text>
+                  </g>
+                </g>
+              </g>
+              <g id="ic_menu_white" transform="translate(191.074 30.527)">
+                <path id="Shape-2" data-name="Shape" d="M10.176,6.784H0V5.653H10.176Zm0-2.827H0V2.827H10.176Zm0-2.827H0V0H10.176Z" transform="translate(0 0)" fill="#323a45"/>
+              </g>
+              <g id="ic_search_white" transform="translate(145.839 28.82)">
+                <path id="Shape-3" data-name="Shape" d="M9.037,9.879h0L6.21,7.058V6.612l-.153-.158a3.68,3.68,0,1,1,.4-.4l.158.153h.447L9.879,9.037l-.842.842ZM3.667,1.123A2.544,2.544,0,1,0,6.21,3.667,2.544,2.544,0,0,0,3.667,1.123Z" transform="translate(0.018 0.018)" fill="#323a45"/>
+              </g>
+              <g id="Group_12" data-name="Group 12" transform="translate(9.342 26.989)">
+                <text id="Aug_2019" data-name="Aug 2019" transform="translate(-0.342 10.011)" fill="#323a45" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">September</tspan></text>
+                <g id="Dropdown" transform="translate(60.756 5.799)">
+                  <path id="Path-2" data-name="Path" d="M0,0,2.827,2.827,5.653,0Z" transform="translate(0)" fill="#323a45"/>
+                </g>
+              </g>
+              <text id="Tue" transform="translate(71.631 54.747)" fill="#8b959e" font-size="5" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Tue</tspan></text>
+              <text id="Thu" transform="translate(130.195 54.747)" fill="#8b959e" font-size="5" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Thu</tspan></text>
+              <text id="Wed" transform="translate(99.61 54.747)" fill="#8b959e" font-size="5" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Wed</tspan></text>
+              <text id="Fri" transform="translate(161.267 54.747)" fill="#8b959e" font-size="5" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Fri</tspan></text>
+              <text id="Sat" transform="translate(189.501 54.747)" fill="#8b959e" font-size="5" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Sat</tspan></text>
+              <text id="Mon" transform="translate(40.719 54.747)" fill="#8b959e" font-size="5" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Mon</tspan></text>
+              <text id="Sun" transform="translate(12.619 54.747)" fill="#8b959e" font-size="5" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Sun</tspan></text>
+              <ellipse id="Oval" cx="8.5" cy="9" rx="8.5" ry="9" transform="translate(98 61)" fill="#594b9a"/>
+              <circle id="Oval-2" data-name="Oval" cx="9.5" cy="9.5" r="9.5" transform="translate(67 61)" fill="#f5f3ff"/>
+              <text id="_15" data-name="15" transform="translate(12.872 73.445)" fill="#323a45" font-size="9" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">15</tspan></text>
+              <text id="_21" data-name="21" transform="translate(188.683 73.445)" fill="#323a45" font-size="9" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">21</tspan></text>
+              <text id="_20" data-name="20" transform="translate(159.852 73.445)" fill="#323a45" font-size="9" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">20</tspan></text>
+              <text id="_19" data-name="19" transform="translate(129.891 73.445)" fill="#323a45" font-size="9" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">19</tspan></text>
+              <text id="_18" data-name="18" transform="translate(100.495 72.88)" fill="#fff" font-size="9" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">18</tspan></text>
+              <text id="_17" data-name="17" transform="translate(71.099 73.445)" fill="#323a45" font-size="9" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">17</tspan></text>
+              <text id="_16" data-name="16" transform="translate(41.703 73.445)" fill="#323a45" font-size="9" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">16</tspan></text>
+              <g id="More_Menu-3" data-name="More Menu" transform="translate(172.419 29.396)">
+                <path id="Shape-4" data-name="Shape" d="M1.131,9.045A1.131,1.131,0,1,1,2.261,7.914,1.131,1.131,0,0,1,1.131,9.045Zm0-3.392A1.131,1.131,0,1,1,2.261,4.522,1.131,1.131,0,0,1,1.131,5.653Zm0-3.392A1.131,1.131,0,1,1,2.261,1.131,1.131,1.131,0,0,1,1.131,2.261Z" transform="translate(0 0)" fill="#323a45"/>
+              </g>
+              <g id="Group_1914" data-name="Group 1914" transform="translate(14.533 77.443)">
+                <circle id="Oval_Copy" data-name="Oval Copy" cx="1" cy="1" r="1" transform="translate(0.467 1.557)" fill="#50c25f"/>
+                <path id="Path_207" data-name="Path 207" d="M6.144,6.141a1.074,1.074,0,1,0-1.07-1.07A1.074,1.074,0,0,0,6.144,6.141Zm0,.536C5.429,6.677,4,7.037,4,7.749v.536H8.288V7.749C8.288,7.037,6.86,6.677,6.144,6.677Z" transform="translate(-0.335 -3.993)" fill="#50c25f"/>
+              </g>
+              <g id="Group_1915" data-name="Group 1915" transform="translate(72.662 77.443)">
+                <circle id="Oval_Copy-2" data-name="Oval Copy" cx="1" cy="1" r="1" transform="translate(0.338 1.557)" fill="#50c25f"/>
+                <path id="Path_207-2" data-name="Path 207" d="M6.144,6.141a1.074,1.074,0,1,0-1.07-1.07A1.074,1.074,0,0,0,6.144,6.141Zm0,.536C5.429,6.677,4,7.037,4,7.749v.536H8.288V7.749C8.288,7.037,6.86,6.677,6.144,6.677Z" transform="translate(-0.238 -3.993)" fill="#50c25f"/>
+              </g>
+              <g id="Group_1916" data-name="Group 1916" transform="translate(161.931 77.443)">
+                <circle id="Oval_Copy-3" data-name="Oval Copy" cx="1" cy="1" r="1" transform="translate(0.068 1.557)" fill="#50c25f"/>
+                <path id="Path_207-3" data-name="Path 207" d="M6.144,6.141a1.074,1.074,0,1,0-1.07-1.07A1.074,1.074,0,0,0,6.144,6.141Zm0,.536C5.429,6.677,4,7.037,4,7.749v.536H8.288V7.749C8.288,7.037,6.86,6.677,6.144,6.677Z" transform="translate(-0.754 -3.993)" fill="#50c25f"/>
+              </g>
+            </g>
+            <g id="Group_2525" data-name="Group 2525" transform="translate(4.152 125.498)">
+              <g id="Rectangle_3134" data-name="Rectangle 3134" transform="translate(0.848 -0.498)">
+                <path id="Path_12876" data-name="Path 12876" d="M0,0H200.684a2.261,2.261,0,0,1,2.261,2.261V37.31a2.261,2.261,0,0,1-2.261,2.261H0Z" fill="rgba(241,132,168,0.05)"/>
+                <path id="Path_12877" data-name="Path 12877" d="M1.565,1H201.119a1.7,1.7,0,0,1,1.7,1.7V37.745a1.7,1.7,0,0,1-1.7,1.7H1.565A.565.565,0,0,1,1,38.876V1.565A.565.565,0,0,1,1.565,1Z" transform="translate(-0.435 -0.435)" fill="none" stroke="rgba(241,132,168,0.5)" stroke-width="1"/>
+              </g>
+              <rect id="Rectangle_3" data-name="Rectangle 3" width="1" height="37.5" transform="translate(0.848 0.502)" fill="#00c551"/>
+              <g id="Group_2524" data-name="Group 2524" transform="translate(7.266 3.217)">
+                <g id="Group_2523" data-name="Group 2523" transform="translate(0 0)">
+                  <text id="The_Walt_Disney_Comp" data-name="The Walt Disney Comp" transform="translate(-0.419 8.285)" fill="#323a45" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Bank of America</tspan></text>
+                  <text id="_18_Oak_Hill_Rd_Elli" data-name="18 Oak Hill Rd, Elli" transform="translate(-0.419 18.285)" fill="#8b959e" font-size="6" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18 Oak Hill Rd, Elliot Lake,</tspan></text>
+                </g>
+              </g>
+              <g id="Group_2522" data-name="Group 2522" transform="translate(7.154 25.004)">
+                <g id="Group_2519" data-name="Group 2519" transform="translate(0 0)">
+                  <text id="Add_Guard" data-name="Add Guard" transform="translate(13.694 8.498)" fill="#8b959e" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Michael Clark</tspan></text>
+                  <g id="Group_13_Copy_3" data-name="Group 13 Copy 3" transform="translate(0 0.498)">
+                    <g id="Oval_Copy_7" data-name="Oval Copy 7" transform="translate(0 0)">
+                      <path id="Path_12878" data-name="Path 12878" d="M5.87,11.241a5.37,5.37,0,1,1,5.37-5.37A5.377,5.377,0,0,1,5.87,11.241Z" transform="translate(-0.217 -0.217)" fill="url(#pattern)"/>
+                      <path id="Path_12879" data-name="Path 12879" d="M5.653.565a5.088,5.088,0,1,0,5.088,5.088A5.094,5.094,0,0,0,5.653.565m0-.565A5.653,5.653,0,1,1,0,5.653,5.653,5.653,0,0,1,5.653,0Z" fill="#50c25f"/>
+                    </g>
+                  </g>
+                  <g id="Group_2518" data-name="Group 2518" transform="translate(8.035 6.621)">
+                    <g id="Oval-3" data-name="Oval" fill="#50c25f" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5">
+                      <circle cx="2.14" cy="2.14" r="2.14" stroke="none"/>
+                      <circle cx="2.14" cy="2.14" r="2.39" fill="none"/>
+                    </g>
+                    <g id="Close" transform="translate(0.535 0.892)">
+                      <path id="Path-3" data-name="Path" d="M1,1.891.25,1.141,0,1.391l1,1L3.139.25,2.89,0Z" transform="translate(0 0)" fill="#fff"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g id="Group_2526" data-name="Group 2526" transform="translate(4.152 169.592)">
+              <g id="Rectangle_3134-2" data-name="Rectangle 3134" transform="translate(0.848 0.408)">
+                <path id="Path_12880" data-name="Path 12880" d="M0,0H200.684a2.261,2.261,0,0,1,2.261,2.261V37.31a2.261,2.261,0,0,1-2.261,2.261H0Z" fill="rgba(210,185,127,0.05)"/>
+                <path id="Path_12881" data-name="Path 12881" d="M1.565,1H201.119a1.7,1.7,0,0,1,1.7,1.7V37.745a1.7,1.7,0,0,1-1.7,1.7H1.565A.565.565,0,0,1,1,38.876V1.565A.565.565,0,0,1,1.565,1Z" transform="translate(-0.435 -0.435)" fill="none" stroke="rgba(210,185,127,0.5)" stroke-width="1"/>
+              </g>
+              <rect id="Rectangle_3-2" data-name="Rectangle 3" width="1" height="37.5" transform="translate(0.848 1.408)" fill="#00c551"/>
+              <g id="Group_2524-2" data-name="Group 2524" transform="translate(7.266 2.72)">
+                <g id="Group_2523-2" data-name="Group 2523" transform="translate(0 0)">
+                  <text id="The_Walt_Disney_Comp-2" data-name="The Walt Disney Comp" transform="translate(-0.419 7.688)" fill="#323a45" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">The Walt Disney Company</tspan></text>
+                  <text id="_18_Oak_Hill_Rd_Elli-2" data-name="18 Oak Hill Rd, Elli" transform="translate(-0.419 18.688)" fill="#8b959e" font-size="6" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18 Oak Hill Rd, Elliot Lake</tspan></text>
+                </g>
+              </g>
+              <g id="Group_2522-2" data-name="Group 2522" transform="translate(7.154 25.004)">
+                <g id="Group_2519-2" data-name="Group 2519" transform="translate(0 0)">
+                  <text id="Add_Guard-2" data-name="Add Guard" transform="translate(13.694 8.404)" fill="#8b959e" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Simon Knight</tspan></text>
+                  <g id="Group_13_Copy_3-2" data-name="Group 13 Copy 3" transform="translate(0 0.404)">
+                    <g id="Oval_Copy_7-2" data-name="Oval Copy 7" transform="translate(0 0)">
+                      <path id="Path_12882" data-name="Path 12882" d="M5.87,11.241a5.37,5.37,0,1,1,5.37-5.37A5.377,5.377,0,0,1,5.87,11.241Z" transform="translate(-0.217 -0.217)" fill="rgba(79,177,222,0.25)"/>
+                      <path id="Path_12883" data-name="Path 12883" d="M5.653.565a5.088,5.088,0,1,0,5.088,5.088A5.094,5.094,0,0,0,5.653.565m0-.565A5.653,5.653,0,1,1,0,5.653,5.653,5.653,0,0,1,5.653,0Z" fill="#50c25f"/>
+                    </g>
+                    <text id="SK" transform="translate(2.653 7.653)" fill="#4fb1de" font-size="5" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">SK</tspan></text>
+                  </g>
+                  <g id="Group_2518-2" data-name="Group 2518" transform="translate(8.035 6.621)">
+                    <g id="Oval-4" data-name="Oval" fill="#50c25f" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5">
+                      <circle cx="2.14" cy="2.14" r="2.14" stroke="none"/>
+                      <circle cx="2.14" cy="2.14" r="2.39" fill="none"/>
+                    </g>
+                    <g id="Close-2" data-name="Close" transform="translate(0.535 0.892)">
+                      <path id="Path-4" data-name="Path" d="M1,1.891.25,1.141,0,1.391l1,1L3.139.25,2.89,0Z" transform="translate(0 0)" fill="#fff"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g id="Group_2527" data-name="Group 2527" transform="translate(4.152 213.686)">
+              <g id="Rectangle_3134-3" data-name="Rectangle 3134" transform="translate(0.848 0.314)">
+                <path id="Path_12884" data-name="Path 12884" d="M0,0H200.684a2.261,2.261,0,0,1,2.261,2.261V37.31a2.261,2.261,0,0,1-2.261,2.261H0Z" fill="rgba(110,169,216,0.05)"/>
+                <path id="Path_12885" data-name="Path 12885" d="M1.565,1H201.119a1.7,1.7,0,0,1,1.7,1.7V37.745a1.7,1.7,0,0,1-1.7,1.7H1.565A.565.565,0,0,1,1,38.876V1.565A.565.565,0,0,1,1.565,1Z" transform="translate(-0.435 -0.435)" fill="none" stroke="rgba(110,169,216,0.5)" stroke-width="1"/>
+              </g>
+              <rect id="Rectangle_3-3" data-name="Rectangle 3" width="1" height="37.5" transform="translate(0.848 1.314)" fill="#00c551"/>
+              <g id="Group_2524-3" data-name="Group 2524" transform="translate(7.266 3.261)">
+                <g id="Group_2523-3" data-name="Group 2523" transform="translate(0 0)">
+                  <text id="The_Walt_Disney_Comp-3" data-name="The Walt Disney Comp" transform="translate(-0.419 8.053)" fill="#323a45" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Patrol Car 1</tspan></text>
+                  <text id="_18_Oak_Hill_Rd_Elli-3" data-name="18 Oak Hill Rd, Elli" transform="translate(-0.419 18.053)" fill="#8b959e" font-size="6" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18 Oak Hill Rd, Elliot Lake, ON…</tspan></text>
+                </g>
+              </g>
+              <g id="Group_2522-3" data-name="Group 2522" transform="translate(7.154 25.004)">
+                <g id="Group_2519-3" data-name="Group 2519" transform="translate(0 0)">
+                  <text id="Add_Guard-3" data-name="Add Guard" transform="translate(13.694 8.31)" fill="#8b959e" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Rone Knight</tspan></text>
+                  <g id="Group_13_Copy_3-3" data-name="Group 13 Copy 3" transform="translate(0 0.31)">
+                    <g id="Oval_Copy_7-3" data-name="Oval Copy 7" transform="translate(0 0)">
+                      <path id="Path_12886" data-name="Path 12886" d="M5.87,11.241a5.37,5.37,0,1,1,5.37-5.37A5.377,5.377,0,0,1,5.87,11.241Z" transform="translate(-0.217 -0.217)" fill="rgba(79,177,222,0.25)"/>
+                      <path id="Path_12887" data-name="Path 12887" d="M5.653.565a5.088,5.088,0,1,0,5.088,5.088A5.094,5.094,0,0,0,5.653.565m0-.565A5.653,5.653,0,1,1,0,5.653,5.653,5.653,0,0,1,5.653,0Z" fill="#50c25f"/>
+                    </g>
+                    <text id="SK-2" data-name="SK" transform="translate(2.653 7.653)" fill="#4fb1de" font-size="5" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">RK</tspan></text>
+                  </g>
+                  <g id="Group_2518-3" data-name="Group 2518" transform="translate(8.035 6.621)">
+                    <g id="Oval-5" data-name="Oval" fill="#50c25f" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5">
+                      <circle cx="2.14" cy="2.14" r="2.14" stroke="none"/>
+                      <circle cx="2.14" cy="2.14" r="2.39" fill="none"/>
+                    </g>
+                    <g id="Close-3" data-name="Close" transform="translate(0.535 0.892)">
+                      <path id="Path-5" data-name="Path" d="M1,1.891.25,1.141,0,1.391l1,1L3.139.25,2.89,0Z" transform="translate(0 0)" fill="#fff"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g id="Group_2528" data-name="Group 2528" transform="translate(4.152 257.78)">
+              <g id="Rectangle_3134-4" data-name="Rectangle 3134" transform="translate(0.848 0.22)">
+                <path id="Path_12890" data-name="Path 12890" d="M0,0H200.684a2.261,2.261,0,0,1,2.261,2.261V37.31a2.261,2.261,0,0,1-2.261,2.261H0Z" fill="rgba(42,172,159,0.05)"/>
+                <path id="Path_12891" data-name="Path 12891" d="M1.565,1H201.119a1.7,1.7,0,0,1,1.7,1.7V37.745a1.7,1.7,0,0,1-1.7,1.7H1.565A.565.565,0,0,1,1,38.876V1.565A.565.565,0,0,1,1.565,1Z" transform="translate(-0.435 -0.435)" fill="none" stroke="rgba(42,172,159,0.5)" stroke-width="1"/>
+              </g>
+              <rect id="Rectangle_3-4" data-name="Rectangle 3" width="1" height="37.5" transform="translate(0.848 1.22)" fill="#ffd300"/>
+              <g id="Group_2524-4" data-name="Group 2524" transform="translate(7.266 2.764)">
+                <g id="Group_2523-4" data-name="Group 2523" transform="translate(0 0)">
+                  <text id="The_Walt_Disney_Comp-4" data-name="The Walt Disney Comp" transform="translate(-0.419 8.456)" fill="#323a45" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">The Walt Disney Company</tspan></text>
+                  <text id="_18_Oak_Hill_Rd_Elli-4" data-name="18 Oak Hill Rd, Elli" transform="translate(-0.419 18.456)" fill="#8b959e" font-size="6" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18 Oak Hill Rd, Elliot Lake, ON…</tspan></text>
+                </g>
+              </g>
+              <g id="Group_2522-4" data-name="Group 2522" transform="translate(7.154 25.004)">
+                <g id="Group_2519-4" data-name="Group 2519" transform="translate(0 0)">
+                  <text id="Add_Guard-4" data-name="Add Guard" transform="translate(13.694 8.216)" fill="#8b959e" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">William Knight</tspan></text>
+                  <g id="Group_13_Copy_3-4" data-name="Group 13 Copy 3" transform="translate(0 0.216)">
+                    <g id="Oval_Copy_7-4" data-name="Oval Copy 7" transform="translate(0 0)">
+                      <path id="Path_12892" data-name="Path 12892" d="M5.87,11.241a5.37,5.37,0,1,1,5.37-5.37A5.377,5.377,0,0,1,5.87,11.241Z" transform="translate(-0.217 -0.217)" fill="rgba(79,177,222,0.25)"/>
+                      <path id="Path_12893" data-name="Path 12893" d="M5.653.565a5.088,5.088,0,1,0,5.088,5.088A5.094,5.094,0,0,0,5.653.565m0-.565A5.653,5.653,0,1,1,0,5.653,5.653,5.653,0,0,1,5.653,0Z" fill="#50c25f"/>
+                    </g>
+                    <text id="SK-3" data-name="SK" transform="translate(1.652 7.653)" fill="#4fb1de" font-size="5" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">WK</tspan></text>
+                  </g>
+                  <g id="Group_2518-4" data-name="Group 2518" transform="translate(8.035 6.621)">
+                    <g id="Oval-6" data-name="Oval" fill="#50c25f" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5">
+                      <circle cx="2.14" cy="2.14" r="2.14" stroke="none"/>
+                      <circle cx="2.14" cy="2.14" r="2.39" fill="none"/>
+                    </g>
+                    <g id="Close-4" data-name="Close" transform="translate(0.535 0.892)">
+                      <path id="Path-6" data-name="Path" d="M1,1.891.25,1.141,0,1.391l1,1L3.139.25,2.89,0Z" transform="translate(0 0)" fill="#fff"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g id="Group_2529" data-name="Group 2529" transform="translate(4.152 301.874)">
+              <g id="Rectangle_3134-5" data-name="Rectangle 3134" transform="translate(0.848)">
+                <path id="Path_12896" data-name="Path 12896" d="M0,0H200.684a2.261,2.261,0,0,1,2.261,2.261V37.31a2.261,2.261,0,0,1-2.261,2.261H0Z" fill="rgba(139,149,158,0.05)"/>
+                <path id="Path_12897" data-name="Path 12897" d="M1.565,1H201.119a1.7,1.7,0,0,1,1.7,1.7V37.745a1.7,1.7,0,0,1-1.7,1.7H1.565A.565.565,0,0,1,1,38.876V1.565A.565.565,0,0,1,1.565,1Z" transform="translate(-0.435 -0.435)" fill="none" stroke="rgba(139,149,158,0.5)" stroke-width="1"/>
+              </g>
+              <rect id="Rectangle_3-5" data-name="Rectangle 3" width="1" height="37.5" transform="translate(0.848 1.126)" fill="#8b959e"/>
+              <g id="Group_2524-5" data-name="Group 2524" transform="translate(7.266 2.544)">
+                <g id="Group_2523-5" data-name="Group 2523" transform="translate(0 0.761)">
+                  <text id="The_Walt_Disney_Comp-5" data-name="The Walt Disney Comp" transform="translate(-0.419 7.821)" fill="#8b959e" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">The Walt Disney Company</tspan></text>
+                  <text id="_18_Oak_Hill_Rd_Elli-5" data-name="18 Oak Hill Rd, Elli" transform="translate(-0.419 18.821)" fill="#8b959e" font-size="6" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18 Oak Hill Rd, Elliot Lake, ON…</tspan></text>
+                </g>
+                <g id="unpublished-black-18dp" transform="translate(177.394 0)">
+                  <rect id="Rectangle_816" data-name="Rectangle 816" width="11.306" height="11.306" transform="translate(0 0)" fill="none"/>
+                  <path id="Path_144" data-name="Path 144" d="M4.644,3.551l-.721-.726a4.967,4.967,0,0,1,6.883,6.884l-.726-.726a3.911,3.911,0,0,0,.557-2.013A3.967,3.967,0,0,0,4.645,3.55ZM9.474,5.743l-.7-.7L7.456,6.359l.7.7Zm1.054,6.5L9.4,11.113A4.967,4.967,0,0,1,2.517,4.232L1.386,3.1l.7-.7,9.137,9.138ZM8.679,10.39,6.751,8.461l-.791.791L3.854,7.145l.7-.7L5.96,7.85l.089-.089L3.242,4.952A3.967,3.967,0,0,0,8.679,10.39Z" transform="translate(-1.008 -1.317)" fill="#8b959e"/>
+                </g>
+              </g>
+              <g id="Group_2522-5" data-name="Group 2522" transform="translate(7.154 26.004)">
+                <g id="Group_2519-5" data-name="Group 2519" transform="translate(0 0)">
+                  <text id="Add_Guard-5" data-name="Add Guard" transform="translate(13.694 7.122)" fill="#8b959e" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Simon Knight</tspan></text>
+                  <g id="Group_13_Copy_3-5" data-name="Group 13 Copy 3" transform="translate(0 -0.878)">
+                    <g id="Oval_Copy_7-5" data-name="Oval Copy 7" transform="translate(0 0)">
+                      <path id="Path_12898" data-name="Path 12898" d="M5.653,0A5.653,5.653,0,1,1,0,5.653,5.653,5.653,0,0,1,5.653,0Z" fill="rgba(139,149,158,0.1)"/>
+                      <path id="Path_12899" data-name="Path 12899" d="M5.653.565a5.088,5.088,0,1,0,5.088,5.088A5.094,5.094,0,0,0,5.653.565m0-.565A5.653,5.653,0,1,1,0,5.653,5.653,5.653,0,0,1,5.653,0Z" fill="rgba(139,149,158,0.5)"/>
+                    </g>
+                    <text id="SK-4" data-name="SK" transform="translate(2.653 7.653)" fill="#8b959e" font-size="5" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">SK</tspan></text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g id="Group_3042" data-name="Group 3042" transform="translate(-0.283 346.491)">
+              <g id="Rectangle_15_Copy_4-2" data-name="Rectangle 15 Copy 4" fill="#fff" stroke="#dfe5eb" stroke-miterlimit="10" stroke-width="1">
+                <rect width="212.273" height="28.265" stroke="none"/>
+                <rect x="0.5" y="0.5" width="211.273" height="27.265" fill="none"/>
+              </g>
+              <g id="Group_2530" data-name="Group 2530" transform="translate(4.435 7.627)">
+                <g id="Group_14" data-name="Group 14" transform="translate(0 0)">
+                  <g transform="matrix(1, 0, 0, 1, -218.52, -427.95)" filter="url(#Rectangle_Copy_7)">
+                    <rect id="Rectangle_Copy_7-2" data-name="Rectangle Copy 7" width="204" height="28" rx="4" transform="translate(218.37 452.84)" fill="#fff"/>
+                  </g>
+                  <text id="Thu_19_Aug" data-name="Thu 19 Aug" transform="translate(4.848 7.882)" fill="#8b959e" font-size="8" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Thu 19 Aug</tspan></text>
+                  <text id="No_schedule_for_this" data-name="No schedule for this" transform="translate(53.526 42.205)" fill="#8b959e" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">No schedule for this day</tspan></text>
+                </g>
+              </g>
+              <g id="More_Menu-4" data-name="More Menu" transform="translate(173.267 10.176)">
+                <path id="Path-7" data-name="Path" d="M7.914,4.522H4.522V7.914H3.392V4.522H0V3.392H3.392V0H4.522V3.392H7.914Z" transform="translate(0 0)" fill="#8b959e"/>
+              </g>
+              <g id="Group_2839" data-name="Group 2839" transform="translate(195.314 9.61)">
+                <g id="More_Menu-5" data-name="More Menu" transform="translate(0 0)">
+                  <path id="Shape-5" data-name="Shape" d="M1.131,9.045A1.131,1.131,0,1,1,2.261,7.914,1.131,1.131,0,0,1,1.131,9.045Zm0-3.392A1.131,1.131,0,1,1,2.261,4.522,1.131,1.131,0,0,1,1.131,5.653Zm0-3.392A1.131,1.131,0,1,1,2.261,1.131,1.131,1.131,0,0,1,1.131,2.261Z" fill="#8b959e"/>
+                </g>
+              </g>
+            </g>
+            <g id="Group_2" data-name="Group 2" transform="translate(0 411.704)">
+              <g transform="matrix(1, 0, 0, 1, -214.37, -485.54)" filter="url(#Rectangle-2)">
+                <rect id="Rectangle-5" data-name="Rectangle" width="212" height="48" transform="translate(214.37 485.84)" fill="#fff"/>
+              </g>
+              <text id="Schedule" transform="translate(53.869 28.02)" fill="#594b9a" font-size="5" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Schedule</tspan></text>
+              <text id="Watch" transform="translate(14.93 28.02)" fill="#8b959e" font-size="5" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Watch</tspan></text>
+              <text id="Home" transform="translate(99.883 28.02)" fill="#8b959e" font-size="5" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Home</tspan></text>
+              <text id="Site" transform="translate(144.532 28.02)" fill="#8b959e" font-size="5" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Site</tspan></text>
+              <text id="Guard" transform="translate(184.688 28.02)" fill="#8b959e" font-size="5" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Guard</tspan></text>
+              <g id="tabbar_watch" data-name="tabbar/watch" transform="translate(15.829 10.018)">
+                <path id="Combined_Shape" data-name="Combined Shape" d="M8.644,10.237a2.657,2.657,0,0,1-1.832-.73,2.606,2.606,0,0,1-.82-1.767.545.545,0,0,1-.009-.076V6.049H5.324V7.662a.594.594,0,0,1-.008.071,2.66,2.66,0,1,1-5-1.408L1.481,1.538A1.992,1.992,0,0,1,3.291,0h.093a1.943,1.943,0,0,1,1.94,1.942v.578h.659V1.942A1.942,1.942,0,0,1,7.925,0h.09A1.992,1.992,0,0,1,9.823,1.537l1.168,4.788a2.66,2.66,0,0,1-2.349,3.911ZM6.923,7.663h0a1.724,1.724,0,1,0,3.109-1.108l-.026-.034a1.752,1.752,0,0,0-.3-.3L9.7,6.214,9.681,6.2a1.781,1.781,0,0,0-.149-.1l-.02-.012L9.5,6.082a1.742,1.742,0,0,0-.391-.165l-.019-.005-.02-.005c-.054-.014-.107-.024-.166-.033H8.89l-.034-.006A1.713,1.713,0,0,0,6.919,7.575v.071l0,.053v.008a.18.18,0,0,1,0-.035ZM2.662,5.85a1.711,1.711,0,0,0-.211.014l-.028,0h0l-.018,0a1.617,1.617,0,0,0-.17.034H2.22l-.028.007a1.743,1.743,0,0,0-.388.163l-.015.009-.014.009c-.049.029-.1.064-.148.1l-.02.015-.013.01a1.734,1.734,0,0,0-.3.3l-.019.025-.008.011a1.829,1.829,0,0,0-.1.157,1.723,1.723,0,1,0,3.213.942.238.238,0,0,0,.005.05.442.442,0,0,0,0-.057V7.572A1.726,1.726,0,0,0,2.662,5.85ZM7.925.937A1.006,1.006,0,0,0,6.919,1.942v3.61c.045-.039.085-.071.124-.1l.009-.007.01-.007L7.119,5.4c.073-.051.148-.1.222-.14l.028-.017a2.8,2.8,0,0,1,.268-.127l.057-.022.023-.008c.076-.028.141-.049.206-.067l.1-.026c.066-.016.135-.029.211-.041l.023,0h.011l.06-.008a2.565,2.565,0,0,1,.312-.02,2.5,2.5,0,0,1,.25.013.582.582,0,0,1,.075.009h.007l.02,0H9c.063.008.093.013.129.02s.062.012.113.025h.011l.109.028c.05.015.093.028.135.043l.089.033c.045.017.088.035.136.057l.01,0L8.91,1.758A1.053,1.053,0,0,0,7.971.938H7.925ZM2.662,4.914a2.668,2.668,0,0,1,.31.019.452.452,0,0,1,.072.011H3.05l.018,0c.069.01.14.024.21.04l.1.027c.064.018.131.04.2.067l.02.008h0l.059.022a2.728,2.728,0,0,1,.265.125l.032.019a2.436,2.436,0,0,1,.221.14c.018.013.032.023.057.043l.019.014c.047.036.088.069.125.1V1.942a1,1,0,0,0-.311-.726A.978.978,0,0,0,3.387.937H3.33a1.05,1.05,0,0,0-.94.824L1.563,5.153l.012-.006c.043-.019.086-.037.136-.057l.09-.033c.041-.014.085-.028.132-.041.032-.01.057-.016.113-.028h.014c.051-.012.077-.018.109-.024l.131-.02h.011l.027,0c.03,0,.051-.007.073-.009A1.6,1.6,0,0,1,2.662,4.914ZM5.324,3.457V5.113h.659V3.457Z" transform="translate(0 0)" fill="#8b959e"/>
+              </g>
+              <g id="tabbar_watch_copy" data-name="tabbar/watch copy" transform="translate(58.792 9.452)">
+                <path id="Shape-6" data-name="Shape" d="M9.045,11.306H1.131A1.131,1.131,0,0,1,0,10.176L.006,2.261A1.131,1.131,0,0,1,1.131,1.131H1.7V0H2.827V1.131H7.349V0H8.48V1.131h.565a1.131,1.131,0,0,1,1.131,1.131v7.914A1.131,1.131,0,0,1,9.045,11.306ZM1.131,3.957v6.218H9.045V3.957ZM7.914,6.218H6.784V5.088H7.914Zm-2.261,0H4.522V5.088H5.653Zm-2.261,0H2.261V5.088H3.392Z" transform="translate(0 0)" fill="#594b9a"/>
+              </g>
+              <g id="tabbar_watch_copy_2" data-name="tabbar/watch copy 2" transform="translate(100.059 9.456)">
+                <path id="Combined_Shape_Copy" data-name="Combined Shape Copy" d="M1.915,10.947a6.411,6.411,0,0,1-.653-8.4,6.115,6.115,0,0,1,9.115-.908,6.5,6.5,0,0,1,.358,9.13L10.6,10.9l-.12-.145L9.945,10.1l-.091-.11.093-.107A5.2,5.2,0,0,0,11.191,5.6,5.044,5.044,0,0,0,9.269,2.278a4.939,4.939,0,0,0-6.733.591,5.314,5.314,0,0,0,.17,7.246l.11.116-.11.113-.557.591-.113.117Zm.509-4.681A3.919,3.919,0,0,1,6.283,2.3a3.919,3.919,0,0,1,3.858,3.967,3.918,3.918,0,0,1-3.859,3.968A3.918,3.918,0,0,1,2.423,6.266Zm1.23,0A2.688,2.688,0,0,0,6.283,9,2.687,2.687,0,0,0,8.912,6.266,2.687,2.687,0,0,0,6.283,3.529a2.688,2.688,0,0,0-2.63,2.737Z" transform="translate(0 -0.006)" fill="#8b959e"/>
+              </g>
+              <g id="tabbar_watch_copy_3" data-name="tabbar/watch copy 3" transform="translate(144.719 9.452)">
+                <path id="Combined_Shape-2" data-name="Combined Shape" d="M3.957,11.306A25.685,25.685,0,0,1,1.979,8.745C1.074,7.406,0,5.49,0,3.957a3.957,3.957,0,0,1,7.914,0c0,1.533-1.074,3.448-1.979,4.787a25.684,25.684,0,0,1-1.979,2.562ZM1.131,3.957c0,1.765,1.979,4.494,2.827,5.585.848-1.077,2.827-3.78,2.827-5.585a2.827,2.827,0,1,0-5.653,0Zm1.413,0A1.413,1.413,0,1,1,3.957,5.37,1.413,1.413,0,0,1,2.544,3.957Z" transform="translate(0 0)" fill="#8b959e"/>
+              </g>
+              <g id="tabbar_watch_copy_4" data-name="tabbar/watch copy 4" transform="translate(185.986 10.018)">
+                <path id="Shape-7" data-name="Shape" d="M9.045,10.176H1.131A1.131,1.131,0,0,1,0,9.045V1.131A1.131,1.131,0,0,1,1.131,0H9.045a1.131,1.131,0,0,1,1.131,1.131V9.045A1.131,1.131,0,0,1,9.045,10.176ZM1.131,1.131V9.045H9.045V1.131ZM8.48,8.48H1.7V7.615C1.7,6.2,3.942,5.591,5.088,5.591S8.48,6.2,8.48,7.615ZM5.088,6.716A3.935,3.935,0,0,0,3,7.349H7.174a3.97,3.97,0,0,0-2.086-.633Zm0-1.628a1.7,1.7,0,1,1,1.7-1.7A1.7,1.7,0,0,1,5.088,5.088Zm0-2.261a.565.565,0,1,0,.565.565A.565.565,0,0,0,5.088,2.827Z" transform="translate(0 0)" fill="#8b959e"/>
+              </g>
+              <g id="iPhone_X_Home_Indicator_Home_Indicator_-_On_Light" data-name="iPhone X/Home Indicator/Home Indicator - On Light" transform="translate(0 29.065)">
+                <rect id="iPhone_X_Home_Indicator_Home_Indicator_-_On_Light_background" data-name="iPhone X/Home Indicator/Home Indicator - On Light background" width="212" height="19" transform="translate(0 0.231)" fill="none"/>
+                <rect id="Rectangle_24" data-name="Rectangle 24" width="75" height="3" rx="1.5" transform="translate(69 11.231)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3248" data-name="Group 3248" transform="translate(-2181.849 578.31)">
+        <g transform="matrix(1, 0, 0, 1, -13691.5, -2532.31)" filter="url(#Rectangle_3405)">
+          <rect id="Rectangle_3405-5" data-name="Rectangle 3405" width="185" height="63" rx="14" transform="translate(28.5 197.31)" fill="#fff"/>
+        </g>
+        <g id="Group_3247" data-name="Group 3247" transform="translate(40 -86)">
+          <g id="Group_3241" data-name="Group 3241" transform="translate(-13648 -2242)">
+            <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(7 4)" fill="rgba(89,75,154,0)" stroke="#594b9a" stroke-width="1">
+              <rect width="61" height="20" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="60" height="19" rx="3.5" fill="none"/>
+            </g>
+            <text id="Tue_15" data-name="Tue 15" transform="translate(38 19)" fill="#594b9a" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-21.014" y="0">Tue 15</tspan></text>
+          </g>
+          <g id="Group_3242" data-name="Group 3242" transform="translate(-13646.846 -2236)">
+            <g id="Group_2283" data-name="Group 2283" transform="translate(-103.154 -286)">
+              <text id="_0_1" data-name="0/1" transform="translate(141 322)" fill="#8ea6af" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">29</tspan></text>
+              <g id="Time" transform="translate(125 311)">
+                <path id="Combined_Shape-3" data-name="Combined Shape" d="M0,5.833a5.833,5.833,0,1,1,5.827,5.833A5.837,5.837,0,0,1,0,5.833Zm1.167,0A4.667,4.667,0,1,0,5.833,1.167,4.672,4.672,0,0,0,1.167,5.833Zm4.083.583v-3.5h.875V5.979L8.75,7.537l-.438.717Z" transform="translate(1.167 1.167)" fill="#8ea6af"/>
+              </g>
+            </g>
+            <g id="Group_2284" data-name="Group 2284" transform="translate(2281.846 646)">
+              <g id="Group_2279" data-name="Group 2279" transform="translate(-3311 -824)">
+                <g id="person-24px_1_" data-name="person-24px (1)" transform="translate(1006 203)">
+                  <path id="Path_206" data-name="Path 206" d="M0,0H14V14H0Z" fill="none"/>
+                  <path id="Path_207-4" data-name="Path 207" d="M8.667,8.667A2.333,2.333,0,1,0,6.333,6.333,2.333,2.333,0,0,0,8.667,8.667Zm0,1.167C7.109,9.833,4,10.615,4,12.167v1.167h9.333V12.167C13.333,10.615,10.224,9.833,8.667,9.833Z" transform="translate(-1.667 -1.667)" fill="none" stroke="#8ea6af" stroke-width="1"/>
+                </g>
+              </g>
+              <text id="_0_1-2" data-name="0/1" transform="translate(-2289 -610)" fill="#8ea6af" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4/5</tspan></text>
+            </g>
+            <g id="Group_2285" data-name="Group 2285" transform="translate(2285.846 646)">
+              <g id="tabbar_schedule-normal" data-name="tabbar/schedule-normal" transform="translate(-2219 -621)">
+                <path id="Shape-8" data-name="Shape" d="M9.333,11.667H1.167A1.168,1.168,0,0,1,0,10.5L.006,2.333A1.165,1.165,0,0,1,1.167,1.167H1.75V0H2.917V1.167H7.583V0H8.75V1.167h.583A1.168,1.168,0,0,1,10.5,2.333V10.5A1.168,1.168,0,0,1,9.333,11.667Zm-8.167-7V10.5H9.333V4.667Zm0-2.334V3.5H9.333V2.333Zm7,4.083H7V5.25H8.167V6.416Zm-2.334,0H4.667V5.25H5.833V6.416Zm-2.333,0H2.333V5.25H3.5V6.416Z" transform="translate(1.75 1.167)" fill="#8ea6af"/>
+              </g>
+              <text id="_0_1-3" data-name="0/1" transform="translate(-2203 -610)" fill="#8ea6af" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">32</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3254" data-name="Group 3254" transform="translate(-331.849 398.31)">
+        <g transform="matrix(1, 0, 0, 1, -15541.5, -2352.31)" filter="url(#Rectangle_3405-2)">
+          <rect id="Rectangle_3405-6" data-name="Rectangle 3405" width="185" height="198" rx="14" transform="translate(28.5 297.31)" fill="#fff"/>
+        </g>
+        <g id="Group_3253" data-name="Group 3253" transform="translate(0 4.5)">
+          <text id="Shift_Analysis" data-name="Shift Analysis" transform="translate(-15496.855 -2031.5)" fill="#323a45" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Shift Analysis</tspan></text>
+          <g id="Group_3252" data-name="Group 3252" transform="translate(-36092.855 -2452.5)">
+            <g id="Group_2332" data-name="Group 2332" transform="translate(0 -3)">
+              <text id="Total_Shifts:" data-name="Total Shifts:" transform="translate(20596 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Total Shifts:</tspan></text>
+              <text id="_370" data-name=" 370" transform="translate(20731.855 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0" xml:space="preserve"> 370</tspan></text>
+            </g>
+            <g id="Group_2330" data-name="Group 2330" transform="translate(20494.855 94)">
+              <g id="Group_1962" data-name="Group 1962" transform="translate(0 4)">
+                <text id="Not_Scheduled_" data-name="Not Scheduled
+" transform="translate(112 354)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="11">Not Scheduled</tspan><tspan x="0" y="33"></tspan></text>
+                <text id="_350_10_10_2_1_10" data-name="350
+10
+10
+2
+1
+10" transform="translate(260 365)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-20.215" y="0">350</tspan><tspan fill="#ff4853"><tspan x="-13.477" y="22">10</tspan></tspan><tspan x="-13.477" y="44">10</tspan><tspan x="-6.738" y="66">2</tspan><tspan x="-6.738" y="88">1</tspan><tspan x="-13.477" y="110">10</tspan></text>
+                <rect id="Rectangle_3289" data-name="Rectangle 3289" width="65" height="12" rx="2" transform="translate(112 376)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-2" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 398)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-3" data-name="Rectangle 3289" width="94" height="12" rx="2" transform="translate(112 420)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-4" data-name="Rectangle 3289" width="73" height="12" rx="2" transform="translate(112 442)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-5" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 464)" fill="#f4f6f8"/>
+              </g>
+              <g id="Group_2336" data-name="Group 2336">
+                <ellipse id="Oval_5_Copy_3" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 382.5)" fill="#f0ad24"/>
+                <ellipse id="Oval_5_Copy_3-2" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 404.5)" fill="#50c25f"/>
+                <g id="Oval_5_Copy_3-3" data-name="Oval 5 Copy 3" transform="translate(101 426.5)" fill="#fff" stroke="#8b959e" stroke-miterlimit="10" stroke-width="0.7">
+                  <ellipse cx="3.858" cy="3.906" rx="3.858" ry="3.906" stroke="none"/>
+                  <ellipse cx="3.858" cy="3.906" rx="3.508" ry="3.556" fill="none"/>
+                </g>
+                <g id="Oval_5_Copy_3-4" data-name="Oval 5 Copy 3" transform="translate(101 448.5)" fill="#8b959e" stroke="#8b959e" stroke-miterlimit="10" stroke-width="0.7">
+                  <ellipse cx="3.858" cy="3.906" rx="3.858" ry="3.906" stroke="none"/>
+                  <ellipse cx="3.858" cy="3.906" rx="3.508" ry="3.556" fill="none"/>
+                </g>
+                <ellipse id="Oval_5_Copy_3-5" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 470.5)" fill="#00a8ff"/>
+                <ellipse id="Oval_5_Copy_3-6" data-name="Oval 5 Copy 3" cx="3.858" cy="3.906" rx="3.858" ry="3.906" transform="translate(101 361.5)" fill="#fd612c"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3258" data-name="Group 3258" transform="translate(63.151 335.31)">
+        <g transform="matrix(1, 0, 0, 1, -15936.5, -2289.31)" filter="url(#Rectangle_3405-3)">
+          <rect id="Rectangle_3405-7" data-name="Rectangle 3405" width="179" height="198" rx="14" transform="translate(427.5 234.31)" fill="#fff"/>
+        </g>
+        <g id="Group_3253-2" data-name="Group 3253" transform="translate(0 4.5)">
+          <text id="Times_Analysis" data-name="Times Analysis" transform="translate(-15497 -2031.5)" fill="#323a45" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Times Analysis</tspan></text>
+          <g id="Group_3252-2" data-name="Group 3252" transform="translate(-36092.855 -2452.5)">
+            <g id="Group_2332-2" data-name="Group 2332" transform="translate(-0.145 -3)">
+              <text id="Scheduled_hrs:" data-name="Scheduled hrs:" transform="translate(20596 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Scheduled hrs:</tspan></text>
+              <text id="_199.5" data-name="199.5" transform="translate(20751 446)" fill="#8b959e" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-30.633" y="0">199.5</tspan></text>
+            </g>
+            <g id="Group_2330-2" data-name="Group 2330" transform="translate(20490.855 94)">
+              <g id="Group_1962-2" data-name="Group 1962" transform="translate(0 4)">
+                <text id="Regular_hrs:_" data-name="Regular hrs: " transform="translate(112 354)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="11">Regular hrs: </tspan></text>
+                <text id="_350_10_10_2_1_10-2" data-name="350
+10
+10
+2
+1
+10" transform="translate(260 365)" fill="#8b959e" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-20.215" y="0">350</tspan><tspan fill="#ff4853"><tspan x="-13.477" y="22">10</tspan></tspan><tspan x="-13.477" y="44">10</tspan><tspan x="-6.738" y="66">2</tspan><tspan x="-6.738" y="88">1</tspan><tspan x="-13.477" y="110">10</tspan></text>
+                <rect id="Rectangle_3289-6" data-name="Rectangle 3289" width="65" height="12" rx="2" transform="translate(112 376)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-7" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 398)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-8" data-name="Rectangle 3289" width="94" height="12" rx="2" transform="translate(112 420)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-9" data-name="Rectangle 3289" width="73" height="12" rx="2" transform="translate(112 442)" fill="#f4f6f8"/>
+                <rect id="Rectangle_3289-10" data-name="Rectangle 3289" width="85" height="12" rx="2" transform="translate(112 464)" fill="#f4f6f8"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3260" data-name="Group 3260">
+        <g id="Group_3259" data-name="Group 3259" transform="translate(-1783 508)">
+          <g transform="matrix(1, 0, 0, 1, -14090.35, -2462)" filter="url(#Rectangle_3405-4)">
+            <rect id="Rectangle_3405-8" data-name="Rectangle 3405" width="180" height="63" rx="14" transform="translate(427.35 127)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Component_61_188" data-name="Component 61 – 188" transform="translate(-15430 -1820)">
+          <g id="Group_2306" data-name="Group 2306" transform="translate(6)">
+            <g id="Group_2313" data-name="Group 2313" transform="translate(6 5)">
+              <text id="Add_Guard-6" data-name="Add Guard" transform="translate(25 35)" fill="#323a45" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Martin</tspan></text>
+              <text id="_08:00_-_18:00" data-name="08:00 - 18:00" transform="translate(0 13)" fill="#323a45" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">08:00 - 18:00</tspan></text>
+              <g id="Group_13_Copy_3-6" data-name="Group 13 Copy 3" transform="translate(0 20)">
+                <g id="Oval_Copy_7-6" data-name="Oval Copy 7">
+                  <path id="Path_12910" data-name="Path 12910" d="M10,19.5A9.5,9.5,0,1,1,19.5,10,9.511,9.511,0,0,1,10,19.5Z" fill="rgba(79,177,222,0.25)"/>
+                  <path id="Path_12911" data-name="Path 12911" d="M10,1a9,9,0,1,0,9,9,9.01,9.01,0,0,0-9-9m0-1A10,10,0,1,1,0,10,10,10,0,0,1,10,0Z" fill="#50c25f"/>
+                </g>
+                <text id="SK-5" data-name="SK" transform="translate(6 14)" fill="#4fb1de" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">M</tspan></text>
+              </g>
+              <g id="Group_2759" data-name="Group 2759" transform="translate(14.214 31.713)">
+                <g id="Oval-7" data-name="Oval" fill="#50c25f" stroke="#fff" stroke-miterlimit="10" stroke-width="1">
+                  <circle cx="3.786" cy="3.786" r="3.786" stroke="none"/>
+                  <circle cx="3.786" cy="3.786" r="4.286" fill="none"/>
+                </g>
+                <g id="Close-5" data-name="Close" transform="translate(0.947 1.578)">
+                  <path id="Path-8" data-name="Path" d="M1.767,3.345.442,2.019,0,2.461,1.767,4.228,5.553.442,5.112,0Z" fill="#fff"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <rect id="Rectangle_3-6" data-name="Rectangle 3" width="2" height="45" transform="translate(0 2)" fill="#00c551"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

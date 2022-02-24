@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70">
+    <defs>
+        <style>
+            .cls-3{fill:#f3855f}
+        </style>
+    </defs>
+    <g id="Group_137" data-name="Group 137" transform="translate(.486)">
+        <circle id="Ellipse_65" data-name="Ellipse 65" cx="35" cy="35" r="35" transform="translate(-.486)" style="fill:rgba(243,133,95,.2)"/>
+        <g id="contact_support_black_24dp" transform="translate(14 14)">
+            <path id="Path_1420" data-name="Path 1420" d="M0 0h42v42H0z" style="fill:none"/>
+            <path id="Path_1421" data-name="Path 1421" class="cls-3" d="M17.573 40.427v-6.283A16.588 16.588 0 0 1 18.438 1a16.525 16.525 0 0 1 16.438 16.581c0 8.639-5.952 17.331-14.829 21.642zm.865-35.936a13.091 13.091 0 0 0 0 26.18h2.6v4.014c6.3-4.014 10.382-10.612 10.382-17.1A13.039 13.039 0 0 0 18.438 4.491z" transform="translate(1.514 .825)"/>
+            <g id="Group_298" data-name="Group 298" transform="translate(2 1)">
+                <circle id="Ellipse_125" data-name="Ellipse 125" class="cls-3" cx="1.5" cy="1.5" r="1.5" transform="translate(12.514 17)"/>
+                <circle id="Ellipse_126" data-name="Ellipse 126" class="cls-3" cx="1.5" cy="1.5" r="1.5" transform="translate(16.514 17)"/>
+                <circle id="Ellipse_127" data-name="Ellipse 127" class="cls-3" cx="1.5" cy="1.5" r="1.5" transform="translate(20.514 17)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<!-- Why Choose -->
+<div class="mt-5 mb-4">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12 mb-5 text-center novagems-ph">
+                    <p class="subheading tex-h color6">Blog</p>
+                    <h2>From our awesome Blogs</h2>
+                </div>
+            </div>
+            <div class="row ">
+                {{ range (.Paginator 3).Pages.ByPublishDate.Reverse }}
+                <div class="col-lg-4 col-md-6 col-12 phone-fast mt-4">
+                    <div class="grids purple blog-shadow ">
+                        {{ .Render "li"}}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="row mt-5 mb-5">
+                <div class="col-md-12 text-center my-5 hvr-icon-wobble-horizontal">
+                    <a rel=preload href="/blog" class="btn-arrow transparentbtn">View All <img class="fa fa-arrow-right hvr-icon arrow-icon" src='{{"/images/novagems-img/Arrow.svg" | absURL}}' alt="Arrow"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Why Choose Ends -->

@@ -1,0 +1,10 @@
+<a href="{{ .RelPermalink }}" class="no-underline pa3 bg-grey-1 br1 mb2 db raise w-100">
+    {{ if .Params.image }}<img class="purple-img" src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+    <div class="choosecontent">
+      <h4 class="mt-2 f3 b lh-title mb1 primary">{{ .Title }}</h4>
+      <p class="mt-2 mid-gray lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      <p class="mt-2 mb0">{{ .Description }}</p>
+      <br>
+      <p class="link b dib black mb0 color5">Read more →</p>
+    </div>
+  </a>

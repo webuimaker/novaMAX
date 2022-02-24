@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div>
+    <div>
+        {{- partial "hero.html" . -}}
+    </div>
+    <div>
+        {{- partial "services.html" . -}}
+    </div>
+    <div>
+        {{- partial "access.html" . -}}
+    </div>
+    <div>
+        {{- partial "howitswork.html" . -}}
+    </div>
+    <!-- <div class="container-fluid" style="background: #fff;">
+    <div class="row ">
+        <div class="col-md-2 p-0">
+            <img src="/images/novagems-img/Ellipse.png" alt="Ellipse">
+        </div>
+        <div class="col-md-4 ">
+            <h5>Latest Feature Updates</h5>
+            <p> <img class="task_alt_black" src="/images/novagems-img/task.png" alt="task"> Visitor Management</p>
+        </div>
+        <div class="col-md-6 p-0">
+            <img src="/images/novagems-img/latest-feature.png" alt="latest-feature">
+        </div>
+    </div>
+</div> -->
+    <div>
+        {{- partial "cta.html" . -}}
+    </div>
+    <div>
+        {{- partial "leaders.html" . -}}
+    </div>
+    <div>
+        {{- partial "resources.html" . -}}
+    </div>
+</div>
+{{end}}

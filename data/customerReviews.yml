@@ -1,0 +1,83 @@
+
+items:
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: Matt Lumb 
+    designation: Manager
+    brandlogo: Google 
+    logo: /images/novagems-img/customer-reviews/Google.svg
+    content: “It makes work easy. A good solution for management.”
+    star: /images/novagems-img/customer-reviews/rating4Star.svg
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: John P. 
+    designation: Director of Operations
+    brandlogo: Capterra
+    logo: /images/novagems-img/customer-reviews/Capterra.svg
+    content: “Most of my comments are documented in the ratings, but ease of use is high, they were able to get us up and running in little to no time, they schedule meetings to teach how to use the software”
+    star: /images/novagems-img/customer-reviews/rating4Star.svg
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: Tameka R. 
+    designation: Interim Administrative Manager
+    brandlogo: Capterra 
+    logo: /images/novagems-img/customer-reviews/Capterra.svg
+    content: “Most likable feature for Novagems is the scheduling, GPS monitoring, checkpoints/tours and timekeeping tools.”
+    star: /images/novagems-img/customer-reviews/rating5Star.svg
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: Sam
+    designation: Manager
+    brandlogo: Google
+    logo: /images/novagems-img/customer-reviews/Google.svg
+    content: “Novagems offers a great solution for the managers. It helped me manage the guards with ease. Their installation process was fast and I consulted them to learn how to use the app”
+    star: /images/novagems-img/customer-reviews/rating5Star.svg
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: Richard S. 
+    designation: Manager
+    brandlogo: Google 
+    logo: /images/novagems-img/customer-reviews/Google.svg
+    content: “The Panic Alert button helped us prevent a big mishap recently. We were able to send backup to our guard in time. Thanks to Novagems. A really thoughtful system.”
+    star: /images/novagems-img/customer-reviews/rating5Star.svg
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: MUHAMMAD K. 
+    designation: Director
+    brandlogo: Capterra 
+    logo: /images/novagems-img/customer-reviews/Capterra.svg
+    content: “This system is user-friendly. Their 24 hours support services Quick response Very effective reporting Professional Team”
+    star: /images/novagems-img/customer-reviews/rating5Star.svg
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: Nathan O
+    designation: Managing Director
+    brandlogo: Capterra 
+    logo: /images/novagems-img/customer-reviews/Capterra.svg
+    content: “Provides a combination of Services in one place/platform. Allows us to roster staff to shifts, prove time in attendance for both customer verification and payroll”
+    star: /images/novagems-img/customer-reviews/rating4Star.svg
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: Jerome Bell
+    designation: Manager
+    brandlogo: Google
+    logo: /images/novagems-img/customer-reviews/Google.svg
+    content: “We love their app. Due to COVID, it made us extremely easy for us to watch and supervise security on our premises.”
+    star: /images/novagems-img/customer-reviews/rating4Star.svg
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: Andrew 
+    designation: Site Incharge
+    brandlogo: Google
+    logo: /images/novagems-img/customer-reviews/Google.svg
+    content: “As a security guard I was not sure if I would be able to get the idea of this app. But it was very easy to use. It made my interaction with the supervisor very fast. It is helpful. ”
+    star: /images/novagems-img/customer-reviews/rating5Star.svg
+  - brand: user-thumb
+    image: /images/novagems-img/customer-reviews/user-thumb.svg
+    name: William 
+    designation: Manager
+    brandlogo: Google
+    logo: /images/novagems-img/customer-reviews/Google.svg
+    content: “I have worked as a guard for a long time but this solution is a game-changer. Smart technology is put to the best use. ”
+    star: /images/novagems-img/customer-reviews/rating4Star.svg
+  

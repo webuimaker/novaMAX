@@ -1,0 +1,92 @@
+<!-- Header Section -->
+<header class="bsnav bsnav-sticky bsnav-sticky-slide">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand brand-icon" href="/"><img src='{{ .Site.Params.logo | relURL}}' alt="logo "></a>
+
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span></button>
+                    <div class="navbar-collapse main-menu-item collapse products-nav" id="navbarSupportedContent">
+                        <ul class="navbar-nav navbar-nav-custom">
+                            {{ range .Site.Menus.main }}
+
+                            <li class="nav-item dropdown product-dropdown ">
+                                {{ if .HasChildren }}
+                                <a class="nav-link dropdown-toggle" href="{{ .URL | absURL }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b>{{ .Name }}</b>
+                                    <span class="vertical-pipe dark-purple"></span>
+                                </a>
+                                <div class="dropdown-menu hvr-bubble-top">
+                                    <div class="border-slider dark-purple"></div>
+                                    {{ range .Children }}
+                                    <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }} </a> {{ end }}
+
+                                </div>
+                                {{ else }} {{ end }}
+                            </li>
+                            {{ end }}
+                        </ul>
+                        <div class="header-text text-header-ipad-phone">
+                            <p style="color: #786ce6 !important;"><b>{{.Params.pageName}}</b></p>
+                        </div>
+                    </div>
+
+
+                    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav ">
+
+                            {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ $active := or (eq $currentPage.Title .Name) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }} {{ if .HasChildren }}
+                            <!-- <div class="navbar-scheduling">
+                                <li class="nav-item dropdown product-dropdown  {{ if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }}active{{ end }}">
+                                    <a class="nav-link dropdown-toggle" href="{{ .URL}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    {{ .Name }}
+                                    <span class="vertical-pipe dark-purple"></span>                        
+                                </a>
+                                    <div class="dropdown-menu ">
+                                        <div class="border-slider dark-purple"></div>
+                                        {{ range .Children }}
+                                        <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a> {{ end }}
+                                    </div>
+                                </li>
+                            </div> -->
+
+
+
+
+
+                            {{ else }} {{if eq .Name "Language" }}
+                            <li class="nav-item {{ if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }}active{{ end }}">
+                                <img class="canada canada-flg" src='{{ "/images/novagems-img/canada.png" | absURL}}' alt="">
+                            </li>
+
+                            {{else if eq .Identifier "login" }}
+                            <li class="nav-item {{ if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }}active{{ end }}">
+                                <a class="nav-link  hvr-icon-wobble-horizontal" href="{{ .URL | absURL }}" target="_blank"><b>{{ .Name }}</b> <img class="fa fa-arrow-right hvr-icon " src='{{"/images/novagems-img/login-arrow.svg"| absURL}}' alt="login-arrow"></a>
+                            </li>
+
+                            {{else if eq .Identifier "Book a Demo"}}
+                            <li class="nav-item loginlast {{ if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }}active{{ end }} {{ if $active }}active{{ end }}">
+                                <a class="nav-link d-inline-block" href="{{ .URL | absURL }}" target="_blank"><b>{{ .Name }}</b></a>
+                            </li>
+                            {{else}}
+                            <li class="nav-item {{ if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }}active{{ end }} {{ if $active }}active{{ end }}">
+                                <a class="nav-link " href="{{ .URL | absURL }}">{{ .Name }}</a>
+                            </li>
+                            {{end}} {{ end }} {{ end }}
+
+
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<!-- Header Section Ends -->

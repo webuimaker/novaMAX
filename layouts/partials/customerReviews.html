@@ -1,0 +1,33 @@
+<div class="container-fluid" id="clientscroll">
+    <section class="customer-reviews slider">
+        {{ range .Site.Data.customerReviews.items }}
+        <div class="slide">
+            <div class="card-deck ">
+                <div class=" customReview phone-fast">
+                    <div class="row card card-cut">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="icon-ctm"><img src="{{ .image | absURL }}" alt="{{.brand}}"></div>
+                                <div class="ms-2 c-details text1">
+                                    <p class="mb-0"><b>{{ .name }}</b></p> <span>{{ .designation }}</span>
+                                </div>
+                            </div>
+                            <div class="badge"><img src="{{ .logo | absURL }}" alt="{{.brandlogo}}"></div>
+                        </div>
+                        <div class="mt-3">
+                            <p class="heading">{{ .content }}</p>
+                            <div class="mt-3">
+                                <div class="mt-3"> <img src="{{ .star | absURL }}" alt="star">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        {{end}}
+    </section>
+</div>

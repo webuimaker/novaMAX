@@ -1,0 +1,113 @@
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-3 col-12">
+                <img class="footer-bt" src='{{"/images/novagems-img/Logo.svg" | absURL }}' alt="Logo">
+                <ul>
+                    <li><a class="display-grid" href="/"><b>Let’s talk:</b> +1-844-844-0038</a></li>
+                    <li><a class="display-grid" href="/"><b>Email:</b> info@novage.ms</a></li>
+                    <li><a class="display-grid" href="/"><b>Support 24/7:</b> +1 604-628-7015</a></li>
+
+                </ul>
+                <div>
+                    <div class="social">
+                        <a href="https://twitter.com/NovagemsInc" target="blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://www.facebook.com/www.novage.ms" target="blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.instagram.com/novagems.inc/ " target="blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/novagems-inc" target="blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        <!-- <a href="https://www.youtube.com/" class="instagram"><i class="bx bxl-youtube"></i></a> -->
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12">
+                <h6 class="footer-bt">Scheduling Software</h6>
+                <ul>
+                    <li><a href="/scheduling">Employee Scheduling</a></li>
+                    <li><a href="/gps-geofence">GPS & Geofencing</a></li>
+                    <li><a href="/clock-in-out">Clock In/Out</a></li>
+                    <li><a href="/task-mangement">Task Management</a></li>
+                    <li><a href="/time-cost-analysis">Timesheet</a></li>
+                    <li><a href="/chat">Chat & Communication</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-12">
+                <h6 class="footer-bt"> Security Company Software</h6>
+                <ul>
+                    <li><a href="/custom-incident-report">Custom Incident Report</a></li>
+                    <li><a href="/checkpoint-tours">Checkpoint Tours</a></li>
+                    <li><a href="/gps-tracking">GPS Tracking</a></li>
+                    <li><a href="/mobile-patrol">Mobile Patrol</a></li>
+                    <li><a href="/smart-response">Smart Response</a></li>
+                    <li><a href="/dashboard-analytics">Dashboard Analytics</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-12">
+                <h6 class="footer-bt">Cleaning Company</h6>
+                <ul>
+                    <li><a href="/maintenance-log-sheet">Maintenance Log Sheet</a></li>
+                    <li><a href="/inspection-report">Inspection Report</a></li>
+                    <li><a href="/work-order-management">Work Order Management</a></li>
+                    <li><a href="/instructions-checklist">Instructions & Checklist</a></li>
+                    <li><a href="/client-management">Client Management</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row footer-2">
+            <div class="col-md-3 col-12 get-shift-done-phone">
+
+            </div>
+            <div class="col-md-3 col-12">
+                <h6 class="footer-bt">Company</h6>
+                <ul>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-12">
+                <h6 class="footer-bt">Learning</h6>
+                <ul>
+                    <li><a rel=preload href="/blog">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-12">
+                <h6 class="footer-bt">Support</h6>
+                <ul>
+                    <li><a target="_blank" href="https://meetings.hubspot.com/gurjot/free-trial-demo">Request for a Demo </a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-2">
+            <hr>
+            <div class="row">
+                <div class="col-md-8 col-12">
+                    <p>© Copyright {{ now.Format "2006" }} Novagems Inc. All rights reserved.</p>
+
+                </div>
+                <div class="col-md-4 col-12">
+                    <div>
+                        {{range .Site.Params.apps}}
+                        <a href="{{.url}}" target="_blank"><img style="width: 45%;" src="{{.image | absURL }}" alt="{{.title}}"></a>
+                        {{end}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</footer>
+<!-- Footer Section -->
+
+{{- partial "script.html" . -}}
+
+
+</body>
+
+</html>

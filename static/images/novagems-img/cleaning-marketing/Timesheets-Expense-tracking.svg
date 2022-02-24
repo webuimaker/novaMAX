@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Group_136" data-name="Group 136" transform="translate(0.492)">
+    <circle id="Ellipse_64" data-name="Ellipse 64" cx="35" cy="35" r="35" transform="translate(-0.492)" fill="rgba(120,108,230,0.2)"/>
+    <g id="pending_actions_black_24dp_1_" data-name="pending_actions_black_24dp (1)" transform="translate(13.454 13.946)">
+      <rect id="Rectangle_206" data-name="Rectangle 206" width="42" height="42" transform="translate(0.054 0.054)" fill="none"/>
+      <path id="Path_2005" data-name="Path 2005" d="M26.809,20.3a8.773,8.773,0,1,0,8.773,8.773A8.776,8.776,0,0,0,26.809,20.3ZM29.7,33.2l-3.772-3.772V23.809h1.755v4.9l3.246,3.246ZM28.563,4.509H22.984a5.243,5.243,0,0,0-9.9,0H7.509A3.519,3.519,0,0,0,4,8.018V34.336a3.519,3.519,0,0,0,3.509,3.509h10.72a11.831,11.831,0,0,1-2.491-3.509H7.509V8.018h3.509v5.264H25.054V8.018h3.509v8.913a12.335,12.335,0,0,1,3.509,1.053V8.018A3.519,3.519,0,0,0,28.563,4.509ZM18.036,8.018a1.755,1.755,0,1,1,1.755-1.755A1.76,1.76,0,0,1,18.036,8.018Z" transform="translate(3.018 0.755)" fill="#786ce6"/>
+    </g>
+  </g>
+</svg>

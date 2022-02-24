@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>{{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    <meta name="keywords" content="{{range .Params.keywords}}{{.}}{{end}}"> {{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}">{{ end }} {{ hugo.Generator }}
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom Css -->
+    <link href='{{ "/css/style.css" | absURL }}' rel="stylesheet">
+    <link href='{{ "/css/custommedia.css" | absURL }}' rel="stylesheet">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href='{{ "/owlcarousel/owl.carousel.min.css" | absURL }}'>
+    <link rel="stylesheet" href='{{ "/owlcarousel/owl.theme.default.min.css" | absURL }}'>
+    <link rel="shortcut icon" href='{{"/images/novagems-img/fav.png" | absURL}}' type="image/x-icon">
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142048781-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-717143903"></script>
+    <script async>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-142048781-1');
+    </script>
+
+    <script async>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-717143903');
+    </script>
+
+    <!-- End Google Tag Manager -->
+
+
+</head>
+
+<body>

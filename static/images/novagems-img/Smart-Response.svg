@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Group_326" data-name="Group 326" transform="translate(-1286 -2255)">
+    <circle id="Ellipse_64" data-name="Ellipse 64" cx="35" cy="35" r="35" transform="translate(1286 2255)" fill="rgba(120,108,230,0.2)"/>
+    <g id="local_taxi_black_24dp" transform="translate(1300 2269.392)">
+      <path id="Path_2014" data-name="Path 2014" d="M0,0H42V42H0Z" fill="none"/>
+      <path id="Path_2015" data-name="Path 2015" d="M30.741,8.245a2.6,2.6,0,0,0-2.474-1.76H23.91V3H13.455V6.485H9.1a2.62,2.62,0,0,0-2.474,1.76L3,18.683v13.94a1.748,1.748,0,0,0,1.743,1.743H6.485a1.748,1.748,0,0,0,1.743-1.743V30.88h20.91v1.743a1.748,1.748,0,0,0,1.743,1.743h1.743a1.748,1.748,0,0,0,1.743-1.743V18.683ZM9.709,9.97h17.93L29.451,15.2H7.9ZM30.88,27.4H6.485v-8.12l.209-.592H30.689l.192.592Z" transform="translate(2.317 2.317)" fill="#786ce6"/>
+      <ellipse id="Ellipse_129" data-name="Ellipse 129" cx="3" cy="2.5" rx="3" ry="2.5" transform="translate(10.118 22.935)" fill="#786ce6"/>
+      <ellipse id="Ellipse_130" data-name="Ellipse 130" cx="3" cy="2.5" rx="3" ry="2.5" transform="translate(25.882 22.935)" fill="#786ce6"/>
+      <line id="Line_1" data-name="Line 1" x2="3" y2="6" transform="translate(13.5)" fill="none" stroke="#786ce6" stroke-width="1.5"/>
+      <line id="Line_3" data-name="Line 3" y2="8" transform="translate(21 -1.392)" fill="none" stroke="#786ce6" stroke-width="1.5"/>
+      <line id="Line_2" data-name="Line 2" x1="3" y2="6" transform="translate(25.382)" fill="none" stroke="#786ce6" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

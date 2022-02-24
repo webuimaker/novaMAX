@@ -1,0 +1,950 @@
+{{ define "main" }}
+<!-- schedule Section -->
+<div>
+    <div class="clock-in-out-bg2">
+        <div class="container example">
+            <div class="row header-subwrapper-top align-items-center">
+                <div class="col-lg-7 col-md-7 col-12">
+                    <div>
+                        <div>
+                            <h2 class="hero-h1">
+                                <span class="color5">Cleaning Services ?</span> Managing cleaners & janitors is now a breeze! Let us tell you how.</h2>
+                            <p>Novagems brings to you a feature-packed janitorial service management system. A one-tap solution for all your management troubles!
+                            </p>
+                        </div>
+                        <div class="row my-5">
+                            <div class="col-lg-9 col-md-11 col-12">
+                                <div class="footer-newsletter">
+                                    <form id="get-started-for-free">
+                                        <input type="email" id="email" name="email" placeholder="Enter your email address">
+                                        <input class="home-btn" type="submit" value="Get Started for Free">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-1 col-12"></div>
+                        </div>
+                        <div class="mt-5 ">
+                            {{- partial "clients.html" . -}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-12 p-0 img-iped-head all-img-left">
+                    <img src="/images/novagems-img/cleaning-company/cleaning-company.png" alt="cleaning-company">
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center ">
+                        <p class="subheading color3">Features</p>
+                        <h2>Scheduling and more</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-6 mt-3">
+                        <div class="clients text-center">
+                            <a href="/scheduling">
+                                <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/Scheduling-e.svg" alt=""></figure>
+                                <p class="clients-p">Scheduling</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mt-3">
+                        <div class="clients text-center">
+                            <a href="/task-mangement">
+                                <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/task&Post.svg" alt=""></figure>
+                                <p class="clients-p">Task & Post </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mt-3">
+                        <div class="clients text-center">
+                            <a href="/gps-geofence">
+                                <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/Scheduling-e.svg" alt=""></figure>
+                                <p class="clients-p">GPS Geofence</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mt-3">
+                        <div class="clients text-center">
+                            <a href="/clock-in-out">
+                                <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/Clock.svg" alt=""></figure>
+                                <p class="clients-p">Clock In/Out</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mt-3">
+                        <div class="clients text-center">
+                            <a href="/time-cost-analysis">
+                                <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/Timesheet.svg" alt=""></figure>
+                                <p class="clients-p">Timesheet</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mt-3">
+                        <div class="clients text-center">
+                            <a href="/chat">
+                                <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/Chat.svg" alt=""></figure>
+                                <p class="clients-p">Chat</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <div class="container">
+                <div class="text-center">
+                    <div class=" header-tex text-center">
+                        <h1 class="hero-h1">Best Management Software for Cleaning Companies</h1>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-2 col-md-4 col-6 mt-3">
+                            <div class="clients text-center">
+                                <a href="/maintenance-log-sheet">
+                                    <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/cleaning-company/Maintenance-Log-Sheet.svg" alt="Maintenance-Log-Sheet"></figure>
+                                    <p class="clients-p">Maintenance
+                                        <br>Log Sheet</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6 mt-3">
+                            <div class="clients text-center">
+                                <a href="/inspection-report">
+                                    <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/cleaning-company/Inspection-Report.svg" alt="Inspection-Report"></figure>
+                                    <p class="clients-p">Inspection
+                                        <br>Report</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6 mt-3">
+                            <div class="clients text-center">
+                                <a href="/work-order-management">
+                                    <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/cleaning-company/Work-Order-Management.svg" alt="Work-Order-Management"></figure>
+                                    <p class="clients-p">Work Order
+                                        <br>Management</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6 mt-3">
+                            <div class="clients text-center">
+                                <a href="/instructions-checklist">
+                                    <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/cleaning-company/Instructions&Checklist.svg" alt="Instructions&Checklist"></figure>
+                                    <p class="clients-p">Instructions
+                                        <br>& Checklist</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6 mt-3">
+                            <div class="clients text-center">
+                                <a href="/client-management">
+                                    <figure style="margin-bottom: 20px;"><img class="key-img" src="/images/novagems-img/cleaning-company/Client-Management.svg" alt="Client-Management"></figure>
+                                    <p class="clients-p">Client
+                                        <br>Management</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix">
+        </div>
+    </div>
+
+    <div class="dedicated-features-sec">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 mt-5 text-center">
+                    <p class="subheading tex-h color3">Features Explained</p>
+                    <h2>Scheduling and more</h2>
+                </div>
+                <div id="tabs6">
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <ul class="tab-slaider" id="accordion6">
+                            <li>
+                                <a class="step circle active" href="#tabs-Schedule-Management">
+                                    <div class="tag">
+                                        <div class="icon">
+                                            <div class="block">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Schedule Management</span>
+                                    </div>
+                                </a>
+                                <div class="addon fadein addon-h">
+                                    <span>Part time, night shifts, remote employees or the day jobs - howsoever your business works, our solution works for you. </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-Task-Management">
+                                    <div class="tag">
+                                        <div class="icon">
+                                            <div class="block">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Task & Post Orders</span>
+                                    </div>
+                                </a>
+                                <div class="addon addon-h">
+                                    <span>Plan, track, report, and be aware of your employees’ workload. Empower them to collaborate smoothly and complete tasks on time.</span>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-GPS-Track&Geofence">
+                                    <div class="tag">
+                                        <img class="active-img " src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">GPS & Geofence</span>
+                                    </div>
+                                </a>
+                                <div class="addon addon-h">
+                                    <span>Track easily and ensure employee accountability. Know how your team moves in real time on your smartphone. </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-Clock-In/Out">
+                                    <div class="tag">
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Clock In/Out</span>
+                                    </div>
+                                </a>
+                                <div class="addon addon-h">
+                                    <span>A clean way to automize attendance, record, store, and monitor employees turnout history & manage the staff efficiently.</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-Timesheets">
+                                    <div class="tag">
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Timesheets</span>
+                                    </div>
+                                </a>
+                                <div class="addon addon-h">
+                                    <span>Get a daily track of your team’s productivity, a metric that is otherwise difficult to gauge. </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-Chat&Communication">
+                                    <div class="tag">
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Chat & Communication</span>
+                                    </div>
+                                </a>
+                                <div class="addon addon-h">
+                                    <span>Easy to use. Phone calls and emails can take time; instant messaging ensures minimum response delay. </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="mb-4 mt-4 hvr-icon-wobble-horizontal">
+                            <a href="/scheduling-management-for-everyone" class="btn-arrow transparentbtn">Explore Scheduling System <img class="fa fa-arrow-right hvr-icon arrow-icon" src="/images/novagems-img/Arrow.svg" alt="Arrow"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-12 employee-scheduling-phone">
+                        <div class="img-iped">
+                            <div id="tabs-Schedule-Management">
+                                <figure><img class="tab-card-img" src="/images/novagems-img/home-page-slider/Schedule-Management.png" alt="Schedule-Management"></figure>
+                                <div class="tab-card-margin">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Schedule your operations. </b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Every organization has its own schedule. We help to manage it well. <a href="/scheduling" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="tabs-Task-Management">
+                                <figure><img class="tab-card-img" src="/images/novagems-img/home-page-slider/Task-and-post-order.png" alt="Task-and-post-order"></figure>
+                                <div class="tab-card-margin">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Get the job done.</b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Manage all aspects of a project smoothly. Avoid delays<br class="breakpoint"> & overtime. <a href="/task-mangement" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabs-GPS-Track&Geofence">
+                                <figure><img src="/images/novagems-img/home-page-slider/GPS-Track-Geofence.png" alt="GPS-Track-Geofence"></figure>
+                                <div class="tab-card-margin">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Heart of perfect tracking. </b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Build trust with your workforce. Reduce your<br class="breakpoint"> operational costs. <a href="/gps-geofence" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabs-Clock-In/Out">
+                                <figure><img src="/images/novagems-img/home-page-slider/Clock-In-Out.png" alt="Clock-In-Out"></figure>
+                                <div class="tab-card-margin">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Automate attendance & timings. </b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Get undisputed record of every<br class="breakpoint"> employee’s attendance. <a href="/clock-in-out" class="color5">Read More <img class="fa fa-arrow-right hvr-icon" src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabs-Timesheets">
+                                <figure><img src="/images/novagems-img/home-page-slider/Timesheet.png" alt="Timesheet"></figure>
+                                <div class="tab-card-margin">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Record time spent accurately.</b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Capture the work hours in real time on laptop, tablet<br class="breakpoint"> or smartphone. <a href="/time-cost-analysis" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabs-Chat&Communication">
+                                <figure><img src="/images/novagems-img/home-page-slider/Chat-and-communication.png" alt="Chat-and-communication"></figure>
+                                <div class="tab-card-margin">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Communicate efficiently </b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Streamlined to connect with offsite staff and increase<br class="breakpoint"> employee engagement. <a href="/chat" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container mt-5">
+                    <div class="row ">
+                        <div class="col-lg-6 col-md-5 col-12">
+
+                        </div>
+                        <div class="col-lg-6 col-md-7 col-12 ">
+                            <div class=" footer-newsletter footer-left">
+                                <form id="tracking_for_everyone">
+                                    <input type="email" id="tracking-for-everyone" name="tracking-for-everyone" placeholder="Enter your email address">
+                                    <input type="submit" value="Get Started for Free">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- maintenance-log-sheet -->
+
+    <div class="mt-5">
+        <div class="container">
+            <div id="tabses" class="row ">
+                <div class="col-lg-6 col-md-6 col-12 ">
+                    <div class="img-iped">
+                        <div id="tabs-11">
+                            <figure><img src="/images/novagems-img/cleaning-company/Paper-to-Digital-Cleaning-Log.png" alt="Paper-to-Digital-Cleaning-Log"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Scan NFC and QR codes
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Adds power of NFC and QR codes in patrolling. Monitors guards <br class="breakpoint">in real time. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="tabs-22">
+                            <figure><img src="/images/novagems-img/cleaning-company/Real-Time-information.png" alt="Real-Time-information"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Proof for incident reporting
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Automatically captures location of the staff and takes photographs <br class="breakpoint"> of the site. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="tabs-33">
+                            <figure><img src="/images/novagems-img/cleaning-company/Problem-Reporting.png" alt="Problem-Reporting"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Operates even when offline
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Captures information even when offline and uploads it as soon <br class="breakpoint"> as connectivity restores. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="tabs-44">
+                            <figure><img src="/images/novagems-img/cleaning-company/Analyze-Problem-Data.png" alt="Analyze-Problem-Data"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Automize your operations
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Uploads reports periodically on the central cloud to give <br class="breakpoint"> everyone ease of working. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 ">
+                    <div>
+                        <h5>Maintenance Log Sheet</h5>
+                        <p>Transform the traditional log sheet into a digital, real-time logging option. Let the cleaners record their work details in a digital cleaning log sheet, upload pictures and report problems.</p>
+                        <h5 class="open-features">Key Features</h5>
+                    </div>
+                    <ul class="tab-slaider" id="accordiones">
+                        <li>
+                            <a class="step circle active" href="#tabs-11">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Paper to Digital Cleaning Log</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#tabs-22">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Real-Time information</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#tabs-33">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Problem Reporting</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#tabs-44">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Analyze Problem Data</span>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <div class="my-3" style="margin-left: 0px;">
+                        <div class="footer-newsletter features-newsletter">
+                            <form id="Check_Point_Tours">
+                                <input type="email" id="Check-Point-Tours" name="Check-Point-Tours" placeholder="Enter your email address">
+                                <input type="submit" value="Get Started for Free" class="background2" id="btnsunscribe">
+                            </form>
+                        </div>
+                    </div>
+                    <div style="margin-left: 15px;" class=" learn-More-btn hvr-underline-reveal">
+                        <a href="/maintenance-log-sheet" class="btn-arrow learn-More ">Learn More </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- inspection-report -->
+
+    <div class="mt-5">
+        <div class="mt-5">
+            <div class="container">
+                <div id="tabs4" class="row ">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div>
+                            <h5>Inspection Report</h5>
+                            <p>Cleaning inspections were never this easy! With this one-touch mobile inspection system, carry out inspection, and notify your clients. Rate the cleaners and add to their credibility to help clients.</p>
+                            <h5 class="open-features">Key Features</h5>
+                        </div>
+                        <ul class="tab-slaider" id="accordion4">
+                            <li>
+                                <a class="step circle active" href="#tabs-1">
+                                    <div class="tag">
+                                        <div class="icon">
+                                            <div class="block">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Ensure Quality Cleaning</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-2">
+                                    <div class="tag">
+                                        <div class="icon">
+                                            <div class="block">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Rate the Cleaners</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-3">
+                                    <div class="tag">
+                                        <img class="active-img " src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Record Comments and Photos</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-4">
+                                    <div class="tag">
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Easy to Share With The Client</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="my-3" style="margin-left: 0px;">
+                            <div class="footer-newsletter features-newsletter">
+                                <form id="Smart_Response">
+                                    <input type="email" id="Smart-Response" name="Smart-Response" placeholder="Enter your email address">
+                                    <input type="submit" value="Get Started for Free" class="background2">
+                                </form>
+                            </div>
+                        </div>
+                        <div style="margin-left: 15px;" class=" learn-More-btn hvr-underline-reveal">
+                            <a href="/inspection-report" class="btn-arrow learn-More ">Learn More </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12 employee-scheduling-phone">
+                        <div class="img-iped">
+
+
+                            <div id="tabs-1">
+                                <figure><img src="/images/novagems-img/cleaning-company/Ensure-Quality-Cleaning.png" alt="Ensure-Quality-Cleaning"></figure>
+                                <!-- <div class="key-tab-card-margin-container">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Location based search for Patrol Guards
+    
+                                    </b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Be always incident-ready. Efficiently deploy security personnel in <br class="breakpoint">case of emergencies. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div id="tabs-2">
+                                <figure><img src="/images/novagems-img/cleaning-company/Rate-the-Cleaners.png" alt="Rate-the-Cleaners"></figure>
+                                <!-- <div class="key-tab-card-margin-container">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Track guard time travel
+    
+                                    </b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">End to end monitoring. Be aware of your guards’ movements <br class="breakpoint"> all the time. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div id="tabs-3">
+                                <figure><img src="/images/novagems-img/cleaning-company/Record-Comments-and-Photos.png" alt="Record-Comments-and-Photos"></figure>
+                                <!-- <div class="key-tab-card-margin-container">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Setup Task & Report templates in advance
+    
+                                    </b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Get instant reports. Leverage the digital power to automate <br class="breakpoint"> task assignments. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div id="tabs-4">
+                                <figure><img src="/images/novagems-img/cleaning-company/Easy-to-Share-With-The-Client.png" alt="Easy-to-Share-With-The-Client"></figure>
+                                <!-- <div class="key-tab-card-margin-container">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Optimize your operations
+    
+                                    </b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Have a response ready by dispatching additional staff with <br class="breakpoint"> just one click. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- work-order-management -->
+
+    <div class="mt-5">
+        <div class="container">
+            <div id="tabs3" class="row ">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="img-iped">
+                        <div id="tabs-11">
+                            <figure><img src="/images/novagems-img/cleaning-company/Assign-Work-Orders-on-the-Go.png" alt="Assign-Work-Orders-on-the-Go"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Scheduling for added advantage
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Pre-define schedules for patrolling. Instantly know when a <br class="breakpoint"> round is missed. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="tabs-22">
+                            <figure><img src="/images/novagems-img/cleaning-company/Timely-Work-Management.png" alt="Timely-Work-Management"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Add more than one site
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Get ease of functionality. Increase the area to monitor in the <br class="breakpoint"> single feature. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="tabs-33">
+                            <figure><img src="/images/novagems-img/cleaning-company/Automated-Workflows.png" alt="Automated-Workflows"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Capture clock in/out with accuracy
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">GPS supported functionality that clocks in and out details of <br class="breakpoint"> mobile patrol. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="tabs-44">
+                            <figure><img src="/images/novagems-img/cleaning-company/Easy-templates-and-Checklists.png" alt="Easy-templates-and-Checklists"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Shorter, more efficient routes
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Get the best way to reach destination. Reduce chances of mobile patrol <br class="breakpoint"> being delayed. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div>
+                        <h5>Work Order Management</h5>
+                        <p>Send work orders on the go and assign tasks and jobs to the cleaners effectively. When you want to allocate a task to the cleaners, the system sends them a real-time notification about the same.</p>
+                        <h5 class="open-features">Key Features</h5>
+                    </div>
+                    <ul class="tab-slaider" id="accordion3">
+                        <li>
+                            <a class="step circle active" href="#tabs-11">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Assign Work Orders on the Go</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#tabs-22">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Timely Work Management</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#tabs-33">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Automated Workflows</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#tabs-44">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Easy templates and Checklists</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="my-3" style="margin-left: 0px;">
+                        <div class="footer-newsletter features-newsletter">
+                            <form id="Mobile_Patrol">
+                                <input type="email" id="Mobile-Patrol" name="Mobile-Patrol" placeholder="Enter your email address">
+                                <input type="submit" value="Get Started for Free" class="background2">
+                            </form>
+                        </div>
+                    </div>
+                    <div style="margin-left: 15px;" class=" learn-More-btn hvr-underline-reveal">
+                        <a href="/work-order-management" class="btn-arrow learn-More ">Learn More </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- instructions-&-checklist-->
+    <div id="reporting" class="mt-5">
+        <div class="mt-5">
+            <div class="container">
+                <div id="tabs" class="row ">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div>
+                            <h5>Instructions & Checklist</h5>
+                            <p>Assist your team with every task efficiently, without skipping anything! Create checklists and assign them to the cleaners so that everything is marked and recorded as done. Track task progress anytime, anywhere. </p>
+                            <h5 class="open-features">Key Features</h5>
+                        </div>
+                        <ul class="tab-slaider" id="accordion">
+                            <li>
+                                <a class="step circle active" href="#tabs-1">
+                                    <div class="tag">
+                                        <div class="icon">
+                                            <div class="block">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">
+                                                Add Job Instructions</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-2">
+                                    <div class="tag">
+                                        <div class="icon">
+                                            <div class="block">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Create Checklists for Tasks</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-3">
+                                    <div class="tag">
+                                        <img class="active-img " src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Add Attachments like Photos</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#tabs-4">
+                                    <div class="tag">
+                                        <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                        <span class="title headimg-color">Track Task Progress</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="my-3" style="margin-left: 0px;">
+                            <div class="footer-newsletter features-newsletter">
+                                <form id="custom_incident_report">
+                                    <input type="email" id="custom-incident-report" name="custom-incident-report" placeholder="Enter your email address">
+                                    <input type="submit" value="Get Started for Free" class="background2">
+                                </form>
+                            </div>
+                        </div>
+                        <div style="margin-left: 15px;" class=" learn-More-btn hvr-underline-reveal">
+                            <a href="/instructions-checklist" class="btn-arrow learn-More ">Learn More </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12  employee-scheduling-phone">
+                        <div class="img-iped">
+
+
+                            <div id="tabs-1">
+                                <figure><img src="/images/novagems-img/cleaning-company/Add-Job-Instructions.png" alt="Add-Job-Instructions"></figure>
+                                <!-- <div class="key-tab-card-margin-container">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Modify forms swiftly</b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Create user or incident specific forms that capture all the <br class="breakpoint"> details accurately. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div id="tabs-2">
+                                <figure><img src="/images/novagems-img/cleaning-company/Create-Checklists-for-Tasks.png" alt="Create-Checklists-for-Tasks"></figure>
+                                <!-- <div class="key-tab-card-margin-container">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">No more manual work</b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Introduce accuracy in business and reduce overhead costs to increase <br class="breakpoint"> profit margins. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div id="tabs-3">
+                                <figure><img src="/images/novagems-img/cleaning-company/Add -Attachments-like-Photos.png" alt="Add -Attachments-like-Photos"></figure>
+                                <!-- <div class="key-tab-card-margin-container">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Collect necessary details
+
+                                    </b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Automatically collect data in meaningful formats. Add accountability to <br class="breakpoint"> your operations. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div id="tabs-4">
+                                <figure><img src="/images/novagems-img/cleaning-company/Track-Task-Progress.png" alt="Track-Task-Progress"></figure>
+                                <!-- <div class="key-tab-card-margin-container">
+                                    <div class="tab-card-slider">
+                                        <p><b class="card-b">Grow with consequential reports</b></p>
+                                        <p class="tab-card-size hvr-icon-wobble-horizontal">Smart reports that lead to more business. Systematize important data in<br class="breakpoint"> meaningful ways. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                            </p>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- client-management-->
+
+    <div class="mt-5">
+        <div class="container">
+            <div id="tabs5" class="row ">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="img-iped">
+                        <div id="tabs-11">
+                            <figure><img src="/images/novagems-img/cleaning-company/Keep-track-of-client-properties-&-tasks.png" alt="Keep-track-of-client-properties-&-tasks"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Several options to choose from
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Get a visual interpretation of your business performance over time. <br class="breakpoint"> Easy to view. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="tabs-22">
+                            <figure><img src="/images/novagems-img/cleaning-company/Attach-before-and-after-photos.png" alt="Attach-before-and-after-photos"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Update your clients
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Report and present data with ease. Show clients how their property is <br class="breakpoint"> getting protected. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="tabs-33">
+                            <figure><img src="/images/novagems-img/cleaning-company/Share-Progress-and-Problem-Reports.png" alt="Share-Progress-and-Problem-Reports"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">Gather business intelligence
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">See the big picture. Improve ROI of your marketing activities. Make <br class="breakpoint"> informed decisions. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="tabs-44">
+                            <figure><img src="/images/novagems-img/cleaning-company/Feedback.png" alt="Feedback"></figure>
+                            <!-- <div class="key-tab-card-margin-container">
+                                <div class="tab-card-slider">
+                                    <p><b class="card-b">SImprove collaboration, enhance profits
+
+                                </b></p>
+                                    <p class="tab-card-size hvr-icon-wobble-horizontal">Use live reporting dashboard to increase your competitiveness <br class="breakpoint"> and grow sales. <a href="/custom-incident-report" class="color5">Read More <img class="fa fa-arrow-right hvr-icon " src="/images/novagems-img/read-more-arrow.svg" alt="read-more-arrow"></a>                                        </p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div>
+                        <h5>Client Management</h5>
+                        <p>Keep your clients satisfied with all the information readily available to them. From sharing estimates to creating task reports and invoices, keep everything handy and easy to share. </p>
+                        <h5 class="open-features">Key Features</h5>
+                    </div>
+                    <ul class="tab-slaider" id="accordion5">
+                        <li>
+                            <a class="step circle active" href="#tabs-11">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Keep track of client properties & tasks</span>
+                                </div>
+                            </a>
+
+                        </li>
+
+                        <li>
+                            <a href="#tabs-22">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Attach before and after photos</span>
+                                </div>
+                            </a>
+
+                        </li>
+
+                        <li>
+                            <a href="#tabs-33">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Share Progress and Problem Reports</span>
+                                </div>
+                            </a>
+
+                        </li>
+
+                        <li>
+                            <a href="#tabs-44">
+                                <div class="tag">
+                                    <img class="active-img" src="/images/novagems-img/dot.svg" alt="dot">
+                                    <span class="title headimg-color">Feedback</span>
+                                </div>
+                            </a>
+
+                        </li>
+
+                    </ul>
+                    <div class="my-3" style="margin-left: 0px;">
+                        <div class="footer-newsletter features-newsletter">
+                            <form id="Dashboard_Analytics">
+                                <input type="email" id="Dashboard-Analytics" name="Dashboard-Analytics" placeholder="Enter your email address">
+                                <input type="submit" value="Get Started for Free" class="background2">
+                            </form>
+                        </div>
+                    </div>
+                    <div style="margin-left: 15px;" class=" learn-More-btn hvr-underline-reveal">
+                        <a href="/client-management" class="btn-arrow learn-More ">Learn More </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        {{- partial "cta.html" . -}}
+    </div>
+
+    <div>
+        {{- partial "resources.html" . -}}
+    </div>
+
+</div>
+
+
+{{end}}

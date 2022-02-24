@@ -1,0 +1,87 @@
+baseURL = "https://novage.ms/" # base url update
+languageCode = "en-us"
+title = "Novagems - #1 Workforce Management solutions"
+
+############################## navigation ###############################
+[menu]
+
+  [[menu.main]]
+    identifier = "Products"
+    name = "Products" 
+    weight = 1
+
+
+    [[menu.main]]
+    identifier = "Products1"
+    name = "Scheduling Software"
+    url = "/scheduling-management-for-everyone"
+    parent = "Products"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "Products2"
+    name = " Security Company Software"
+    url = "/workforce-management-for-security-company"
+    parent = "Products"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "Products3"
+    name = " Cleaning Company Software"
+    url = "/cleaning-company"
+    parent = "Products"
+    weight = 3
+
+  [[menu.main]]
+  name = "Language"
+  identifier = "language"
+  weight = 2
+
+  enableRobotsTXT = true
+
+[[menu.main]]
+  name = "Book a Demo"
+  identifier = "Book a Demo"
+  URL = "https://meetings.hubspot.com/gurjot/free-trial-demo"
+  weight = 3
+
+  [[menu.main]]
+  name = "Log In"
+  identifier = "login"
+  URL = "https://manager.novage.ms/"
+  weight = 4
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[params]
+logo = "/images/novagems-img/Logo.svg"
+
+[[params.apps]]
+title = "googlePlay"
+url = "https://play.google.com/store/apps/developer?id=Novagems"
+image= "/images/novagems-img/playstore.png"
+
+[[params.apps]]
+title = "IOSapp"
+url = "https://apps.apple.com/in/developer/epitome-technologies/id1325518724"
+image= "/images/novagems-img/appstore.png"
+
+  
+  
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
