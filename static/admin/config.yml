@@ -10,7 +10,7 @@ public_folder: "/images/uploads"
 show_preview_links: false
 
 
-site_url: https://youthful-brattain-e4b874.netlify.app/
+# site_url: https://youthful-brattain-e4b874.netlify.app/
 
 # display_url: site_url: https://nervous-sinoussi-f2fa04.netlify.app/
 
