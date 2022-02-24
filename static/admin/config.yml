@@ -18,10 +18,11 @@ site_url: https://flamboyant-benz-eb887f.netlify.app/
 collections:
   - name: "blog"
     label: "Blog"
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{fields.filename}}'
     folder: "content/blog"
     create: true
     fields:
+      - { label: "File name", name: "filename", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string"}
       - { label: "Date", name: "date", widget: "date" }
@@ -31,12 +32,12 @@ collections:
         name: "categories"
         widget: "list"
         allow_add: true
-        default: ["ccat"]
+        default: [""]
       - label: "Tags"
         name: "tags"
         widget: "list"
         allow_add: true
-        default: ["news"]
+        default: [""]
       - { label: "Body", name: "body", widget: "markdown" }
   - name: 'page'
     label: 'Pages'

@@ -7,8 +7,8 @@ date: 2022-02-24T18:42:27.615Z
 draft: false
 image: /images/uploads/2-customized-approach-for-every-business-min.jpg
 categories:
-  - categories: developmentTEST
-  - categories: publishingTEST
+  -  developmentTEST
+  -  publishingTEST
 tags:
   - tags: testTags
   - tags: testTags2
