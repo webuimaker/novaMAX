@@ -1,12 +1,16 @@
 ---
 title: "Novagems - #1 Workforce Management solutions"
 draft: false
-description : "Organize, plan, manage, and track employee work, including employee schedules, and paid time off with the workforce management system of Novagems."
+description: Organize, plan, manage, and track employee work, including employee
+  schedules, and paid time off with the workforce management system of Novagems.
 keywords:
-- workforce management software,
-- work force management solutions, 
-- best workforce management software, 
-- best workforce automation tools
+  - workforce management software,
+  - work force management solutions,
+  - best workforce management software,
+  - best workforce automation tools
+knowledge:
+  - title: demo1
+    text: work force management
+  - title: demo2
+    text: demo **two** data
 ---
-
-
