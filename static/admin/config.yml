@@ -10,12 +10,22 @@ public_folder: "/images/uploads"
 show_preview_links: false
 
 
-# site_url: https://youthful-brattain-e4b874.netlify.app/
+site_url: https://flamboyant-benz-eb887f.netlify.app/
 
 # display_url: site_url: https://nervous-sinoussi-f2fa04.netlify.app/
 
 
 collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Featured Image", name: "image", widget: "image"}
+      - { label: "Description", name: "description", widget: "string"}
   - name: 'page'
     label: 'Pages'
     identifier_field: Page
