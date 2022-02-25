@@ -3,7 +3,7 @@ filename: Testing Mohit
 title: Testing Blog
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 date: 2022-02-25T04:34:54.888Z
-draft: true
+draft: false
 image: /images/uploads/7-ways-jotform-has-become-more-collaborative-over-the-years-ffa3a9.png
 categories:
   - Development
