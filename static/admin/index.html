@@ -23,6 +23,46 @@
                 }
             });
         }
+        
+
+        CMS.registerEditorComponent({
+            id: "button-download",
+            label: "Button Download",
+            fields: [{
+                name: "heading",
+                label: "Heading",
+                widget: "string"
+            },
+            {            
+                name: "formid",
+                label: "Form ID",
+                widget: "string"
+            },
+            
+            {            
+                name: "postion",
+                label: "Position of Button",
+                widget: "string"
+            }
+
+            ],
+            pattern: /{{< button-download ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+            fromBlock: function(match) {
+                return {
+                    heading: match[1],
+                    formid: match[2],
+                    postion: match[3],
+                };
+            },
+            toBlock: function(obj) {
+                return `{{< button-download ${obj.heading} ${obj.formid}  ${obj.postion}>}}`;
+            },
+            toPreview: function(obj) {
+                // return `<img src="https://i3.ytimg.com/vi/${obj.id}/hqdefault.jpg" alt="Youtube Video"/>`;
+                return `{{< button-download ${obj.heading} ${obj.formid}  ${obj.postion}>}}`;
+            },
+        });
+
     </script>
 
 </body>
