@@ -46,7 +46,7 @@
             }
 
             ],
-            pattern: /{{< button-download ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+            pattern: /{{< button-download ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) ?\s+>}}/,
             fromBlock: function(match) {
                 return {
                     heading: match[1],
@@ -55,11 +55,11 @@
                 };
             },
             toBlock: function(obj) {
-                return `{{< button-download ${obj.heading} ${obj.formid}  ${obj.postion}>}}`;
+                return `{{< button-download ${obj.heading} ${obj.formid}  ${obj.postion} />}}`;
             },
             toPreview: function(obj) {
                 // return `<img src="https://i3.ytimg.com/vi/${obj.id}/hqdefault.jpg" alt="Youtube Video"/>`;
-                return `{{< button-download ${obj.heading} ${obj.formid}  ${obj.postion}>}}`;
+                return `{{< button-download ${obj.heading} ${obj.formid}  ${obj.postion} />}}`;
             },
         });
 
